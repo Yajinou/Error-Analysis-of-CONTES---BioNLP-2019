@@ -26,7 +26,7 @@ Error Analysis of CONTES(https://github.com/ArnaudFerre/CONTES) method's perform
 
 - Precise : the path to the reference term is the subpath to the prediction term
 
-
+- Correct : correct predicted terms
 
 
 3. Visualization of the error:
