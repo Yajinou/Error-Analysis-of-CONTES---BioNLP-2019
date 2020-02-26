@@ -1,5 +1,5 @@
 # Error-Analysis-of-CONTES---BioNLP-2019
-Error Analysis of CONTES method's performance on the Bacteria Biotope (BB) Task at BioNLP-OST 2019 (https://2019.bionlp-ost.org).
+Error Analysis of CONTES(https://github.com/ArnaudFerre/CONTES) method's performance on the Bacteria Biotope (BB) Task at BioNLP-OST 2019 (https://2019.bionlp-ost.org).
 
 
 1. Extract informations from the file of prediction result(contes_500_dev.csv):
