@@ -8,6 +8,8 @@ Error Analysis of CONTES method's performance on the Bacteria Biotope (BB) Task 
 - predict ID (ex.OBT:000000), predict name(ex.[bottle])
 
 
+
+
 2. Define error type by combining ontology information(path to the terms : OntoBiotope_BioNLP-OST-2019_paths.txt):
 
 - Wrong type : the term of prediction and the term of reference aren't the same type(ex. Phenotype vs. habitat)
@@ -23,6 +25,8 @@ Error Analysis of CONTES method's performance on the Bacteria Biotope (BB) Task 
     - Too General : exclude the situation above, if the prediction term is the root of each type(ex. "Habitat"/"Phenotype")
 
 - Precise : the path to the reference term is the subpath to the prediction term
+
+
 
 
 3. Visualization of the error:
