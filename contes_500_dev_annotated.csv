@@ -1,0 +1,709 @@
+;name;match;score;type;word;reference;predict;reference_id;predict_id;reference_name;predict_name;error_type;sous_class
+0;BB-norm-20580604;MM;0.0313;Habitat;bottle;OBT:003146 (fermented milk);OBT:001456 (bottle);OBT:003146;OBT:001456;['fermented', 'milk'];['bottle'];Wrong class;0
+1;BB-norm-25114119;MM;0.0369;Habitat;human macrophages;OBT:002995 (macrophage);OBT:002488 (human);OBT:002995;OBT:002488;['macrophage'];['human'];Wrong class;1
+2;BB-norm-11989773;MM;0.0445;Habitat;chicken;OBT:002394 (chicken meat);OBT:003300 (poultry);OBT:002394;OBT:003300;['chicken', 'meat'];['poultry'];Wrong class;2
+3;BB-norm-11989773;MM;0.0445;Habitat;chicken;OBT:002394 (chicken meat);OBT:003300 (poultry);OBT:002394;OBT:003300;['chicken', 'meat'];['poultry'];Wrong class;3
+4;BB-norm-10496597;MM;0.045;Habitat;monoclonal B cells;OBT:001623 (lymphocyte);OBT:001480 (cheese);OBT:001623;OBT:001480;['lymphocyte'];['cheese'];Wrong class;4
+5;BB-norm-10496597;MM;0.045;Habitat;monoclonal B cells;OBT:001623 (lymphocyte);OBT:001480 (cheese);OBT:001623;OBT:001480;['lymphocyte'];['cheese'];Wrong class;5
+6;BB-norm-3544198;MM;0.0482;Habitat;urine of leprosy patients;OBT:001367 (urine);OBT:003220 (patient);OBT:001367;OBT:003220;['urine'];['patient'];Wrong class;6
+7;BB-norm-3544198;MM;0.0482;Habitat;urine of leprosy patients;OBT:001367 (urine);OBT:003220 (patient);OBT:001367;OBT:003220;['urine'];['patient'];Wrong class;7
+8;BB-norm-3544198;MM;0.0482;Habitat;urine of LL patients;OBT:001367 (urine);OBT:003220 (patient);OBT:001367;OBT:003220;['urine'];['patient'];Wrong class;8
+9;BB-norm-3544198;MM;0.0482;Habitat;urine of LL patients;OBT:001367 (urine);OBT:003220 (patient);OBT:001367;OBT:003220;['urine'];['patient'];Wrong class;9
+10;BB-norm-F-20167385-010;MM;0.0494;Habitat;dairy;OBT:001208 (milk and milk product);OBT:001988 (dairy industry);OBT:001208;OBT:001988;['milk', 'and', 'milk', 'product'];['dairy', 'industry'];Wrong class;10
+11;BB-norm-20580604;MM;0.053;Habitat;placebo group;OBT:003245 (adult human);OBT:000815 (plant product and primary derivative thereof);OBT:003245;OBT:000815;['adult', 'human'];['plant', 'product', 'and', 'primary', 'derivative', 'thereof'];Wrong class;11
+12;BB-norm-18094887;MM;0.0636;Habitat;human blood;OBT:000521 (blood);OBT:002488 (human);OBT:000521;OBT:002488;['blood'];['human'];Wrong class;12
+13;BB-norm-9521147;MM;0.0647;Habitat;sera from patients with different clinical spectra and with other infections;OBT:000524 (blood serum);OBT:003220 (patient);OBT:000524;OBT:003220;['blood', 'serum'];['patient'];Wrong class;13
+14;BB-norm-9521147;MM;0.0647;Habitat;sera from patients with melioidosis;OBT:000524 (blood serum);OBT:003220 (patient);OBT:000524;OBT:003220;['blood', 'serum'];['patient'];Wrong class;14
+15;BB-norm-10496597;MM;0.0767;Habitat;MALT;OBT:000334 (lymphatic system part);OBT:003215 (malt);OBT:000334;OBT:003215;['lymphatic', 'system', 'part'];['malt'];Wrong class;15
+16;BB-norm-10496597;MM;0.0767;Habitat;MALT;OBT:000334 (lymphatic system part);OBT:003215 (malt);OBT:000334;OBT:003215;['lymphatic', 'system', 'part'];['malt'];Wrong class;16
+17;BB-norm-10496597;MM;0.0767;Habitat;MALT;OBT:000334 (lymphatic system part);OBT:003215 (malt);OBT:000334;OBT:003215;['lymphatic', 'system', 'part'];['malt'];Wrong class;17
+18;BB-norm-20580604;MM;0.0767;Habitat;probiotic group;OBT:003245 (adult human);OBT:000240 (commodity and primary derivative thereof);OBT:003245;OBT:000240;['adult', 'human'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;18
+19;BB-norm-10496597;MM;0.0775;Habitat;CD20;OBT:001623 (lymphocyte);OBT:000815 (plant product and primary derivative thereof);OBT:001623;OBT:000815;['lymphocyte'];['plant', 'product', 'and', 'primary', 'derivative', 'thereof'];Wrong class;19
+20;BB-norm-10496597;MM;0.0775;Habitat;CD20;OBT:001623 (lymphocyte);OBT:000815 (plant product and primary derivative thereof);OBT:001623;OBT:000815;['lymphocyte'];['plant', 'product', 'and', 'primary', 'derivative', 'thereof'];Wrong class;20
+21;BB-norm-18094887;MM;0.0775;Habitat;animal or human blood;OBT:000521 (blood);OBT:001625 (mammalian);OBT:000521;OBT:001625;['blood'];['mammalian'];Wrong class;21
+22;BB-norm-20174624;MM;0.0775;Habitat;human innate immune system;OBT:000686 (innate immune system);OBT:001625 (mammalian);OBT:000686;OBT:001625;['innate', 'immune', 'system'];['mammalian'];Wrong class;22
+23;BB-norm-21695078;MM;0.0775;Habitat;intranasal;OBT:000767 (nose);OBT:001625 (mammalian);OBT:000767;OBT:001625;['nose'];['mammalian'];Wrong class;23
+24;BB-norm-9521147;MM;0.0775;Habitat;hyperimmune mouse sera;OBT:000524 (blood serum);OBT:001625 (mammalian);OBT:000524;OBT:001625;['blood', 'serum'];['mammalian'];Wrong class;24
+25;BB-norm-9553794;MM;0.0783;Habitat;Gram-negative flora;OBT:000113 (microflora);OBT:000648 (gram-negative);OBT:000113;OBT:000648;['microflora'];['gram-negative'];Wrong type;25
+26;BB-norm-9553794;MM;0.0783;Habitat;Gram-negative flora;OBT:000113 (microflora);OBT:000648 (gram-negative);OBT:000113;OBT:000648;['microflora'];['gram-negative'];Wrong type;26
+27;BB-norm-21270066;MM;0.0798;Habitat;sexually transmitted infection clinics;OBT:002694 (clinic);OBT:002488 (human);OBT:002694;OBT:002488;['clinic'];['human'];Wrong class;27
+28;BB-norm-12109661;MM;0.0833;Habitat;control group;OBT:003188 (child);OBT:000240 (commodity and primary derivative thereof);OBT:003188;OBT:000240;['child'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;28
+29;BB-norm-19552770;MM;0.0978;Habitat;Perdix perdix;OBT:003066 (partridge);OBT:000240 (commodity and primary derivative thereof);OBT:003066;OBT:000240;['partridge'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;29
+30;BB-norm-19552770;MM;0.0978;Habitat;Perdix perdix;OBT:003066 (partridge);OBT:000240 (commodity and primary derivative thereof);OBT:003066;OBT:000240;['partridge'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;30
+31;BB-norm-18094887;MM;0.1003;Habitat;Polygenis rimatus;OBT:002034 (flea);OBT:000240 (commodity and primary derivative thereof);OBT:002034;OBT:000240;['flea'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;31
+32;BB-norm-18094887;MM;0.1003;Habitat;Polygenis roberti roberti;OBT:002034 (flea);OBT:000240 (commodity and primary derivative thereof);OBT:002034;OBT:000240;['flea'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;32
+33;BB-norm-18094887;MM;0.1003;Habitat;Polygenis tripus;OBT:002034 (flea);OBT:000240 (commodity and primary derivative thereof);OBT:002034;OBT:000240;['flea'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;33
+34;BB-norm-18094887;MM;0.1003;Habitat;Rhopalopsyllus lugubris;OBT:002034 (flea);OBT:000240 (commodity and primary derivative thereof);OBT:002034;OBT:000240;['flea'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;34
+35;BB-norm-20174624;MM;0.1021;Habitat;HMDMs;OBT:002995 (macrophage);OBT:000193 (animal);OBT:002995;OBT:000193;['macrophage'];['animal'];Wrong class;35
+36;BB-norm-18094887;MM;0.1091;Habitat;Ixodes loricatus;OBT:001821 (tick);OBT:000240 (commodity and primary derivative thereof);OBT:001821;OBT:000240;['tick'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;36
+37;BB-norm-F-20167385-011;MM;0.1187;Habitat;Gorgonzola rinds;OBT:001481 (cheese rind);OBT:003093 (fermented dairy product);OBT:001481;OBT:003093;['cheese', 'rind'];['fermented', 'dairy', 'product'];Wrong class;37
+38;BB-norm-11989773;MM;0.1203;Habitat;food handlers;OBT:003311 (worker);OBT:000094 (food for human);OBT:003311;OBT:000094;['worker'];['food', 'for', 'human'];Wrong class;38
+39;BB-norm-11989773;MM;0.1203;Habitat;food handler;OBT:003311 (worker);OBT:000094 (food for human);OBT:003311;OBT:000094;['worker'];['food', 'for', 'human'];Wrong class;39
+40;BB-norm-11989773;MM;0.1203;Habitat;food handlers;OBT:003311 (worker);OBT:000094 (food for human);OBT:003311;OBT:000094;['worker'];['food', 'for', 'human'];Wrong class;40
+41;BB-norm-F-20167385-007;MM;0.1203;Habitat;surface microbiota of Formaggio di Fossa, Gorgonzola and Taleggio  cheeses;OBT:000113 (microflora);OBT:003428 (ripened cheese);OBT:000113;OBT:003428;['microflora'];['ripened', 'cheese'];Wrong class;41
+42;BB-norm-F-20167385-007;MM;0.1203;Habitat;surface microbiota of Formaggio di Fossa, Gorgonzola and Taleggio  cheeses;OBT:000113 (microflora);OBT:003428 (ripened cheese);OBT:000113;OBT:003428;['microflora'];['ripened', 'cheese'];Wrong class;42
+43;BB-norm-F-20167385-007;MM;0.1203;Habitat;surface microbiota of Formaggio di Fossa, Gorgonzola and Taleggio  cheeses;OBT:000113 (microflora);OBT:003428 (ripened cheese);OBT:000113;OBT:003428;['microflora'];['ripened', 'cheese'];Wrong class;43
+44;BB-norm-20580604;MM;0.1229;Habitat;soft stools;OBT:001102 (feces);OBT:000240 (commodity and primary derivative thereof);OBT:001102;OBT:000240;['feces'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;44
+45;BB-norm-20580604;MM;0.1229;Habitat;soft stools;OBT:001102 (feces);OBT:000240 (commodity and primary derivative thereof);OBT:001102;OBT:000240;['feces'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;45
+46;BB-norm-20580604;MM;0.1229;Habitat;soft stools;OBT:001102 (feces);OBT:000240 (commodity and primary derivative thereof);OBT:001102;OBT:000240;['feces'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;46
+47;BB-norm-F-20167385-014;MM;0.1281;Habitat;surface of Formaggio di  Fossa cheese;OBT:001341 (surface of cheese);OBT:003381 (fermented cheese);OBT:001341;OBT:003381;['surface', 'of', 'cheese'];['fermented', 'cheese'];Wrong class;47
+48;BB-norm-15293611;MM;0.1325;Habitat;cystic fibrosis (CF) units;OBT:000097 (hospital environment);OBT:003156 (ill person);OBT:000097;OBT:003156;['hospital', 'environment'];['ill', 'person'];Wrong class;48
+49;BB-norm-16458564;MM;0.1447;Habitat;latrine;OBT:000702 (latrine);OBT:000193 (animal);OBT:000702;OBT:000193;['latrine'];['animal'];Wrong class;49
+50;BB-norm-460951;MM;0.1447;Habitat;pulmonary;OBT:000716 (lung);OBT:000240 (commodity and primary derivative thereof);OBT:000716;OBT:000240;['lung'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;50
+51;BB-norm-460951;MM;0.1447;Habitat;pulmonary;OBT:000716 (lung);OBT:000240 (commodity and primary derivative thereof);OBT:000716;OBT:000240;['lung'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;51
+52;BB-norm-15293611;MM;0.1451;Habitat;paediatric and adult cystic fibrosis units;OBT:000097 (hospital environment);OBT:002488 (human);OBT:000097;OBT:002488;['hospital', 'environment'];['human'];Wrong class;52
+53;BB-norm-15293611;MM;0.1451;Habitat;adult cystic fibrosis units;OBT:000097 (hospital environment);OBT:002488 (human);OBT:000097;OBT:002488;['hospital', 'environment'];['human'];Wrong class;53
+54;BB-norm-15293611;MM;0.1451;Habitat;regional paediatric and adult CF units;OBT:000097 (hospital environment);OBT:002488 (human);OBT:000097;OBT:002488;['hospital', 'environment'];['human'];Wrong class;54
+55;BB-norm-15293611;MM;0.1451;Habitat;regional paediatric and adult CF units;OBT:000097 (hospital environment);OBT:002488 (human);OBT:000097;OBT:002488;['hospital', 'environment'];['human'];Wrong class;55
+56;BB-norm-F-20167385-010;MM;0.1515;Habitat;cheese rinds;OBT:001481 (cheese rind);OBT:001480 (cheese);OBT:001481;OBT:001480;['cheese', 'rind'];['cheese'];Wrong class;56
+57;BB-norm-F-20167385-010;MM;0.1515;Habitat;rind of Gorgonzola and Scimudin cheeses;OBT:001481 (cheese rind);OBT:001480 (cheese);OBT:001481;OBT:001480;['cheese', 'rind'];['cheese'];Wrong class;57
+58;BB-norm-F-20167385-010;MM;0.1515;Habitat;rind of Gorgonzola and Scimudin cheeses;OBT:001481 (cheese rind);OBT:001480 (cheese);OBT:001481;OBT:001480;['cheese', 'rind'];['cheese'];Wrong class;58
+59;BB-norm-F-25036636-004;MM;0.1515;Habitat;cheese rind;OBT:001481 (cheese rind);OBT:001480 (cheese);OBT:001481;OBT:001480;['cheese', 'rind'];['cheese'];Wrong class;59
+60;BB-norm-F-25036636-000;MM;0.1607;Habitat;cheese communities;OBT:000113 (microflora);OBT:001480 (cheese);OBT:000113;OBT:001480;['microflora'];['cheese'];Wrong class;60
+61;BB-norm-F-20167385-000;MM;0.194;Habitat;surface of cheeses;OBT:001341 (surface of cheese);OBT:001480 (cheese);OBT:001341;OBT:001480;['surface', 'of', 'cheese'];['cheese'];Wrong class;61
+62;BB-norm-F-20167385-009;MM;0.194;Habitat;Casera, Gorgonzola and Scimudin cheese  surfaces;OBT:001341 (surface of cheese);OBT:001480 (cheese);OBT:001341;OBT:001480;['surface', 'of', 'cheese'];['cheese'];Wrong class;62
+63;BB-norm-F-20167385-009;MM;0.194;Habitat;Gorgonzola and Scimudin cheese  surfaces;OBT:001341 (surface of cheese);OBT:001480 (cheese);OBT:001341;OBT:001480;['surface', 'of', 'cheese'];['cheese'];Wrong class;63
+64;BB-norm-F-20167385-009;MM;0.194;Habitat;Scimudin cheese  surfaces;OBT:001341 (surface of cheese);OBT:001480 (cheese);OBT:001341;OBT:001480;['surface', 'of', 'cheese'];['cheese'];Wrong class;64
+65;BB-norm-F-20167385-011;MM;0.194;Habitat;surface of Gorgonzola and Scimudin cheeses;OBT:001341 (surface of cheese);OBT:001480 (cheese);OBT:001341;OBT:001480;['surface', 'of', 'cheese'];['cheese'];Wrong class;65
+66;BB-norm-F-20167385-011;MM;0.194;Habitat;surface of Gorgonzola and Scimudin cheeses;OBT:001341 (surface of cheese);OBT:001480 (cheese);OBT:001341;OBT:001480;['surface', 'of', 'cheese'];['cheese'];Wrong class;66
+67;BB-norm-10496597;MM;0.1988;Habitat;gastric biopsies;OBT:000110 (medical sample);OBT:000642 (gastrointestinal tract part);OBT:000110;OBT:000642;['medical', 'sample'];['gastrointestinal', 'tract', 'part'];Wrong class;67
+68;BB-norm-15618837;MM;0.1988;Habitat;Gastric biopsies;OBT:000110 (medical sample);OBT:000642 (gastrointestinal tract part);OBT:000110;OBT:000642;['medical', 'sample'];['gastrointestinal', 'tract', 'part'];Wrong class;68
+69;BB-norm-20580604;MM;0.1988;Habitat;intestinal microbiota;OBT:000113 (microflora);OBT:000642 (gastrointestinal tract part);OBT:000113;OBT:000642;['microflora'];['gastrointestinal', 'tract', 'part'];Wrong class;69
+70;BB-norm-20580604;MM;0.1988;Habitat;intestinal microbiota;OBT:000113 (microflora);OBT:000642 (gastrointestinal tract part);OBT:000113;OBT:000642;['microflora'];['gastrointestinal', 'tract', 'part'];Wrong class;70
+71;BB-norm-16458564;MM;0.2001;Habitat;fresh water;OBT:002455 (freshwater);OBT:000094 (food for human);OBT:002455;OBT:000094;['freshwater'];['food', 'for', 'human'];Wrong class;71
+72;BB-norm-F-20167385-004;MM;0.2313;Habitat;Enterococcus  selective agar;OBT:000031 (agar);OBT:000002 (microbial phenotype);OBT:000031;OBT:000002;['agar'];['microbial', 'phenotype'];Wrong type;72
+73;BB-norm-9553794;MM;0.2324;Habitat;vacuum packages;OBT:002300 (vacuum-packed food);OBT:000489 (animal product and primary derivative thereof);OBT:002300;OBT:000489;['vacuum-packed', 'food'];['animal', 'product', 'and', 'primary', 'derivative', 'thereof'];Wrong class;73
+74;BB-norm-11989773;MM;0.2361;Habitat;HCLA;OBT:000031 (agar);OBT:000240 (commodity and primary derivative thereof);OBT:000031;OBT:000240;['agar'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;74
+75;BB-norm-16458564;MM;0.2474;Habitat;piped water;OBT:001530 (drinking water);OBT:000006 (artificial environment);OBT:001530;OBT:000006;['drinking', 'water'];['artificial', 'environment'];Wrong class;75
+76;BB-norm-10496597;MM;0.2609;Habitat;gastric mucosa;OBT:001577 (gastric mucosa);OBT:000642 (gastrointestinal tract part);OBT:001577;OBT:000642;['gastric', 'mucosa'];['gastrointestinal', 'tract', 'part'];Wrong class;76
+77;BB-norm-10496597;MM;0.2609;Habitat;gastric mucosal;OBT:001577 (gastric mucosa);OBT:000642 (gastrointestinal tract part);OBT:001577;OBT:000642;['gastric', 'mucosa'];['gastrointestinal', 'tract', 'part'];Wrong class;77
+78;BB-norm-12109661;MM;0.2609;Habitat;gastric mucosa;OBT:001577 (gastric mucosa);OBT:000642 (gastrointestinal tract part);OBT:001577;OBT:000642;['gastric', 'mucosa'];['gastrointestinal', 'tract', 'part'];Wrong class;78
+79;BB-norm-12109661;MM;0.2609;Habitat;gastric mucosa;OBT:001577 (gastric mucosa);OBT:000642 (gastrointestinal tract part);OBT:001577;OBT:000642;['gastric', 'mucosa'];['gastrointestinal', 'tract', 'part'];Wrong class;79
+80;BB-norm-12109661;MM;0.2609;Habitat;gastric mucosa;OBT:001577 (gastric mucosa);OBT:000642 (gastrointestinal tract part);OBT:001577;OBT:000642;['gastric', 'mucosa'];['gastrointestinal', 'tract', 'part'];Wrong class;80
+81;BB-norm-20580604;MM;0.2842;Habitat;probiotic and placebo groups;OBT:003245 (adult human);OBT:000001 (microbial habitat);OBT:003245;OBT:000001;['adult', 'human'];['microbial', 'habitat'];Too General;81
+82;BB-norm-20580604;MM;0.2842;Habitat;placebo groups;OBT:003245 (adult human);OBT:000001 (microbial habitat);OBT:003245;OBT:000001;['adult', 'human'];['microbial', 'habitat'];Too General;82
+83;BB-norm-16273411;MM;0.3211;Habitat;animals;OBT:001103 (female animal);OBT:001625 (mammalian);OBT:001103;OBT:001625;['female', 'animal'];['mammalian'];Wrong class;83
+84;BB-norm-10496597;MM;0.3236;Habitat;patients with high-grade primary gastric lymphoma, 25 with low-grade MALT lymphoma, 32 with atypical lymphoid infiltrates;OBT:003220 (patient);OBT:000001 (microbial habitat);OBT:003220;OBT:000001;['patient'];['microbial', 'habitat'];Too General;84
+85;BB-norm-10496597;MM;0.3236;Habitat;patients with high-grade primary gastric lymphoma, 25 with low-grade MALT lymphoma;OBT:003220 (patient);OBT:000001 (microbial habitat);OBT:003220;OBT:000001;['patient'];['microbial', 'habitat'];Too General;85
+86;BB-norm-19339076;MM;0.3318;Habitat;lactose-free M17 medium supplemented with either glucose only (GM17) or lactose only (LM17);OBT:000007 (experimental medium);OBT:000240 (commodity and primary derivative thereof);OBT:000007;OBT:000240;['experimental', 'medium'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong4;86
+87;BB-norm-21894542;MM;0.3318;Habitat;marine organisms;OBT:000010 (living organism);OBT:000338 (marine environment);OBT:000010;OBT:000338;['living', 'organism'];['marine', 'environment'];Wrong4;87
+88;BB-norm-10496597;MM;0.3366;Habitat;patients with high-grade primary gastric lymphoma, 25 with low-grade MALT lymphoma, 32 with atypical lymphoid infiltrates, and 39 with Helicobacter pylori-chronic active gastritis;OBT:003269 (patient with infectious disease);OBT:000001 (microbial habitat);OBT:003269;OBT:000001;['patient', 'with', 'infectious', 'disease'];['microbial', 'habitat'];Too General;88
+89;BB-norm-20174624;MM;0.3385;Habitat;HMDM;OBT:002995 (macrophage);OBT:000001 (microbial habitat);OBT:002995;OBT:000001;['macrophage'];['microbial', 'habitat'];Too General;89
+90;BB-norm-1214327;MM;0.3467;Habitat;water;OBT:000468 (water);OBT:000269 (environment water);OBT:000468;OBT:000269;['water'];['environment', 'water'];Wrong4;90
+91;BB-norm-1214327;MM;0.3625;Habitat;fish samples;OBT:002793 (fish);OBT:000001 (microbial habitat);OBT:002793;OBT:000001;['fish'];['microbial', 'habitat'];Too General;91
+92;BB-norm-10496597;MM;0.3675;Habitat;gastric MALT;OBT:000334 (lymphatic system part);OBT:001792 (stomach);OBT:000334;OBT:001792;['lymphatic', 'system', 'part'];['stomach'];Wrong class;92
+93;BB-norm-10496597;MM;0.3675;Habitat;gastric MALT;OBT:000334 (lymphatic system part);OBT:001792 (stomach);OBT:000334;OBT:001792;['lymphatic', 'system', 'part'];['stomach'];Wrong class;93
+94;BB-norm-F-20167385-008;MM;0.3675;Habitat;white mould rind;OBT:001481 (cheese rind);OBT:000240 (commodity and primary derivative thereof);OBT:001481;OBT:000240;['cheese', 'rind'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;94
+95;BB-norm-F-20167385-008;MM;0.3675;Habitat;rind;OBT:001481 (cheese rind);OBT:000240 (commodity and primary derivative thereof);OBT:001481;OBT:000240;['cheese', 'rind'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;95
+96;BB-norm-F-20167385-011;MM;0.3675;Habitat;Gorgonzola rind;OBT:001481 (cheese rind);OBT:000240 (commodity and primary derivative thereof);OBT:001481;OBT:000240;['cheese', 'rind'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;96
+97;BB-norm-F-20167385-011;MM;0.3675;Habitat;Taleggio rind;OBT:001481 (cheese rind);OBT:000240 (commodity and primary derivative thereof);OBT:001481;OBT:000240;['cheese', 'rind'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;97
+98;BB-norm-F-20167385-011;MM;0.3675;Habitat;Fontina rind;OBT:001481 (cheese rind);OBT:000240 (commodity and primary derivative thereof);OBT:001481;OBT:000240;['cheese', 'rind'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;98
+99;BB-norm-F-25036636-001;MM;0.3675;Habitat;dry natural rinds;OBT:001481 (cheese rind);OBT:000240 (commodity and primary derivative thereof);OBT:001481;OBT:000240;['cheese', 'rind'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;99
+100;BB-norm-F-25036636-005;MM;0.3675;Habitat;rinds;OBT:001481 (cheese rind);OBT:000240 (commodity and primary derivative thereof);OBT:001481;OBT:000240;['cheese', 'rind'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;100
+101;BB-norm-11989773;MM;0.3891;Habitat;chicken nugget processing plant;OBT:002129 (meat industry);OBT:000001 (microbial habitat);OBT:002129;OBT:000001;['meat', 'industry'];['microbial', 'habitat'];Too General;101
+102;BB-norm-11989773;MM;0.3891;Habitat;chicken nugget processing plant;OBT:002129 (meat industry);OBT:000001 (microbial habitat);OBT:002129;OBT:000001;['meat', 'industry'];['microbial', 'habitat'];Too General;102
+103;BB-norm-18094887;MM;0.3891;Habitat;Adoratopsylla antiquorum antiquorum;OBT:002034 (flea);OBT:000001 (microbial habitat);OBT:002034;OBT:000001;['flea'];['microbial', 'habitat'];Too General;103
+104;BB-norm-18094887;MM;0.3891;Habitat;Polygenis atopus;OBT:002034 (flea);OBT:000001 (microbial habitat);OBT:002034;OBT:000001;['flea'];['microbial', 'habitat'];Too General;104
+105;BB-norm-18094887;MM;0.3891;Habitat;Rhopalopsyllus lutzi lutzi;OBT:002034 (flea);OBT:000001 (microbial habitat);OBT:002034;OBT:000001;['flea'];['microbial', 'habitat'];Too General;105
+106;BB-norm-351567;MM;0.4004;Habitat;cellophane membrane disks;OBT:000103 (laboratory equipment);OBT:000014 (part of living organism);OBT:000103;OBT:000014;['laboratory', 'equipment'];['part', 'of', 'living', 'organism'];Wrong3;106
+107;BB-norm-F-20167385-004;MM;0.4139;Habitat;Gorgonzola, Scimudin and Taleggio surfaces;OBT:001341 (surface of cheese);OBT:000240 (commodity and primary derivative thereof);OBT:001341;OBT:000240;['surface', 'of', 'cheese'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong4;107
+108;BB-norm-16458564;MM;0.4217;Habitat;fresh water supply;OBT:001082 (drinking water supply);OBT:000001 (microbial habitat);OBT:001082;OBT:000001;['drinking', 'water', 'supply'];['microbial', 'habitat'];Too General;108
+109;BB-norm-460951;MM;0.4217;Habitat;Tuberculosis Reference Laboratory;OBT:001169 (laboratory);OBT:000001 (microbial habitat);OBT:001169;OBT:000001;['laboratory'];['microbial', 'habitat'];Too General;109
+110;BB-norm-F-20167385-011;MM;0.4217;Habitat;Scimudin (107 CFU/cm2) and Gorgonzola (105 CFU/cm2) surfaces;OBT:001341 (surface of cheese);OBT:000001 (microbial habitat);OBT:001341;OBT:000001;['surface', 'of', 'cheese'];['microbial', 'habitat'];Too General;110
+111;BB-norm-F-20167385-011;MM;0.4217;Habitat;Gorgonzola (105 CFU/cm2) surfaces;OBT:001341 (surface of cheese);OBT:000001 (microbial habitat);OBT:001341;OBT:000001;['surface', 'of', 'cheese'];['microbial', 'habitat'];Too General;111
+112;BB-norm-F-14624315-000;MM;0.4488;Habitat;Maasdammer;OBT:003458 (semi soft cheese);OBT:000240 (commodity and primary derivative thereof);OBT:003458;OBT:000240;['semi', 'soft', 'cheese'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;112
+113;BB-norm-16458564;MM;0.4504;Habitat;unhygienic septic tank;OBT:003116 (septic tank);OBT:000006 (artificial environment);OBT:003116;OBT:000006;['septic', 'tank'];['artificial', 'environment'];General;113
+114;BB-norm-16273411;MM;0.4531;Habitat;placenta of a 38-year-old secondary recurrent aborter;OBT:000811 (placenta);OBT:000001 (microbial habitat);OBT:000811;OBT:000001;['placenta'];['microbial', 'habitat'];Too General;114
+115;BB-norm-25204345;MM;0.4581;Habitat;natural fermented koumiss;OBT:003210 (kumis);OBT:003047 (fermented plant-based food);OBT:003210;OBT:003047;['kumis'];['fermented', 'plant-based', 'food'];Wrong4;115
+116;BB-norm-F-20167385-000;MM;0.46;Habitat;Scimudin;OBT:003522 (Scimudin);OBT:000240 (commodity and primary derivative thereof);OBT:003522;OBT:000240;['Scimudin'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;116
+117;BB-norm-F-20167385-003;MM;0.46;Habitat;Scimudin;OBT:003522 (Scimudin);OBT:000240 (commodity and primary derivative thereof);OBT:003522;OBT:000240;['Scimudin'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;117
+118;BB-norm-F-20167385-003;MM;0.46;Habitat;Scimudin;OBT:003522 (Scimudin);OBT:000240 (commodity and primary derivative thereof);OBT:003522;OBT:000240;['Scimudin'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;118
+119;BB-norm-F-20167385-004;MM;0.46;Habitat;Scimudin;OBT:003522 (Scimudin);OBT:000240 (commodity and primary derivative thereof);OBT:003522;OBT:000240;['Scimudin'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;119
+120;BB-norm-F-20167385-006;MM;0.46;Habitat;Scimudin;OBT:003522 (Scimudin);OBT:000240 (commodity and primary derivative thereof);OBT:003522;OBT:000240;['Scimudin'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;120
+121;BB-norm-F-20167385-006;MM;0.46;Habitat;Scimudin;OBT:003522 (Scimudin);OBT:000240 (commodity and primary derivative thereof);OBT:003522;OBT:000240;['Scimudin'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;121
+122;BB-norm-F-20167385-011;MM;0.46;Habitat;Scimudin;OBT:003522 (Scimudin);OBT:000240 (commodity and primary derivative thereof);OBT:003522;OBT:000240;['Scimudin'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong class;122
+123;BB-norm-15293611;MM;0.4970000000000001;Habitat;paediatric;OBT:003188 (child);OBT:003220 (patient);OBT:003188;OBT:003220;['child'];['patient'];Wrong3;123
+124;BB-norm-15293611;MM;0.4970000000000001;Habitat;paediatric;OBT:003188 (child);OBT:003220 (patient);OBT:003188;OBT:003220;['child'];['patient'];Wrong3;124
+125;BB-norm-19552770;MM;0.5037;Habitat;game bird farm;OBT:000194 (animal farm);OBT:000001 (microbial habitat);OBT:000194;OBT:000001;['animal', 'farm'];['microbial', 'habitat'];General3;125
+126;BB-norm-20580604;MM;0.5037;Habitat;water content of the stools;OBT:000215 (body fluid);OBT:000001 (microbial habitat);OBT:000215;OBT:000001;['body', 'fluid'];['microbial', 'habitat'];General3;126
+127;BB-norm-21894542;MM;0.5051;Habitat;world's oceans;OBT:003105 (marine water);OBT:000047 (aquatic environment);OBT:003105;OBT:000047;['marine', 'water'];['aquatic', 'environment'];General;127
+128;BB-norm-20580604;MM;0.5055;Habitat;probiotics;OBT:001269 (probiotic food);OBT:000815 (plant product and primary derivative thereof);OBT:001269;OBT:000815;['probiotic', 'food'];['plant', 'product', 'and', 'primary', 'derivative', 'thereof'];Wrong3;128
+129;BB-norm-20580604;MM;0.5055;Habitat;probiotics;OBT:001269 (probiotic food);OBT:000815 (plant product and primary derivative thereof);OBT:001269;OBT:000815;['probiotic', 'food'];['plant', 'product', 'and', 'primary', 'derivative', 'thereof'];Wrong3;129
+130;BB-norm-20580604;MM;0.5055;Habitat;probiotics;OBT:001269 (probiotic food);OBT:000815 (plant product and primary derivative thereof);OBT:001269;OBT:000815;['probiotic', 'food'];['plant', 'product', 'and', 'primary', 'derivative', 'thereof'];Wrong3;130
+131;BB-norm-3544198;MM;0.5175;Habitat;nitrocellulose paper;OBT:000007 (experimental medium);OBT:000006 (artificial environment);OBT:000007;OBT:000006;['experimental', 'medium'];['artificial', 'environment'];Wrong2;131
+132;BB-norm-F-20167385-003;MM;0.5227;Habitat;Gorgonzola cheeses;OBT:003504 (Gorgonzola);OBT:001480 (cheese);OBT:003504;OBT:001480;['Gorgonzola'];['cheese'];Wrong class;132
+133;BB-norm-F-20167385-003;MM;0.5227;Habitat;Scimudin cheeses;OBT:003522 (Scimudin);OBT:001480 (cheese);OBT:003522;OBT:001480;['Scimudin'];['cheese'];Wrong class;133
+134;BB-norm-F-20167385-004;MM;0.5227;Habitat;Gorgonzola and Scimudin cheeses;OBT:003504 (Gorgonzola);OBT:001480 (cheese);OBT:003504;OBT:001480;['Gorgonzola'];['cheese'];Wrong class;134
+135;BB-norm-F-20167385-004;MM;0.5227;Habitat;Scimudin cheeses;OBT:003522 (Scimudin);OBT:001480 (cheese);OBT:003522;OBT:001480;['Scimudin'];['cheese'];Wrong class;135
+136;BB-norm-F-20167385-005;MM;0.5227;Habitat;Scimudin cheese;OBT:003522 (Scimudin);OBT:001480 (cheese);OBT:003522;OBT:001480;['Scimudin'];['cheese'];Wrong class;136
+137;BB-norm-F-20167385-006;MM;0.5227;Habitat;Taleggio and Scimudin cheeses;OBT:003525 (Taleggio);OBT:001480 (cheese);OBT:003525;OBT:001480;['Taleggio'];['cheese'];Wrong class;137
+138;BB-norm-F-20167385-006;MM;0.5227;Habitat;Scimudin cheeses;OBT:003522 (Scimudin);OBT:001480 (cheese);OBT:003522;OBT:001480;['Scimudin'];['cheese'];Wrong class;138
+139;BB-norm-F-20167385-006;MM;0.5227;Habitat;Gorgonzola cheese;OBT:003504 (Gorgonzola);OBT:001480 (cheese);OBT:003504;OBT:001480;['Gorgonzola'];['cheese'];Wrong class;139
+140;BB-norm-F-20167385-006;MM;0.5227;Habitat;Scimudin cheeses;OBT:003522 (Scimudin);OBT:001480 (cheese);OBT:003522;OBT:001480;['Scimudin'];['cheese'];Wrong class;140
+141;BB-norm-F-20167385-006;MM;0.5227;Habitat;Taleggio (4), Scimudin (6), Casera (5) and Gorgonzola (1) cheeses;OBT:003525 (Taleggio);OBT:001480 (cheese);OBT:003525;OBT:001480;['Taleggio'];['cheese'];Wrong class;141
+142;BB-norm-F-20167385-006;MM;0.5227;Habitat;Scimudin (6), Casera (5) and Gorgonzola (1) cheeses;OBT:003522 (Scimudin);OBT:001480 (cheese);OBT:003522;OBT:001480;['Scimudin'];['cheese'];Wrong class;142
+143;BB-norm-F-20167385-006;MM;0.5227;Habitat;Gorgonzola (1) cheeses;OBT:003504 (Gorgonzola);OBT:001480 (cheese);OBT:003504;OBT:001480;['Gorgonzola'];['cheese'];Wrong class;143
+144;BB-norm-F-20167385-007;MM;0.5227;Habitat;Taleggio  cheeses;OBT:003525 (Taleggio);OBT:001480 (cheese);OBT:003525;OBT:001480;['Taleggio'];['cheese'];Wrong class;144
+145;BB-norm-F-20167385-008;MM;0.5227;Habitat;Scimudin cheese;OBT:003522 (Scimudin);OBT:001480 (cheese);OBT:003522;OBT:001480;['Scimudin'];['cheese'];Wrong class;145
+146;BB-norm-F-20167385-009;MM;0.5227;Habitat;Gorgonzola and Scimudin cheese;OBT:003504 (Gorgonzola);OBT:001480 (cheese);OBT:003504;OBT:001480;['Gorgonzola'];['cheese'];Wrong class;146
+147;BB-norm-F-20167385-009;MM;0.5227;Habitat;Scimudin cheese;OBT:003522 (Scimudin);OBT:001480 (cheese);OBT:003522;OBT:001480;['Scimudin'];['cheese'];Wrong class;147
+148;BB-norm-F-20167385-010;MM;0.5227;Habitat;Gorgonzola and Scimudin cheeses;OBT:003504 (Gorgonzola);OBT:001480 (cheese);OBT:003504;OBT:001480;['Gorgonzola'];['cheese'];Wrong class;148
+149;BB-norm-F-20167385-010;MM;0.5227;Habitat;Scimudin cheeses;OBT:003522 (Scimudin);OBT:001480 (cheese);OBT:003522;OBT:001480;['Scimudin'];['cheese'];Wrong class;149
+150;BB-norm-F-20167385-010;MM;0.5227;Habitat;Gobbeen cheese;OBT:003505 (Gubbeen);OBT:001480 (cheese);OBT:003505;OBT:001480;['Gubbeen'];['cheese'];Wrong class;150
+151;BB-norm-F-20167385-011;MM;0.5227;Habitat;Gorgonzola and Scimudin cheeses;OBT:003504 (Gorgonzola);OBT:001480 (cheese);OBT:003504;OBT:001480;['Gorgonzola'];['cheese'];Wrong class;151
+152;BB-norm-F-20167385-011;MM;0.5227;Habitat;Scimudin cheeses;OBT:003522 (Scimudin);OBT:001480 (cheese);OBT:003522;OBT:001480;['Scimudin'];['cheese'];Wrong class;152
+153;BB-norm-F-20167385-011;MM;0.5334;Habitat;fermented fish;OBT:003145 (fermented fish product);OBT:003047 (fermented plant-based food);OBT:003145;OBT:003047;['fermented', 'fish', 'product'];['fermented', 'plant-based', 'food'];Wrong class;153
+154;BB-norm-F-20167385-003;MM;0.5381;Habitat;Casera cheese;OBT:003483 (Valtellina Casera);OBT:001480 (cheese);OBT:003483;OBT:001480;['Valtellina', 'Casera'];['cheese'];Wrong class;154
+155;BB-norm-F-20167385-003;MM;0.5381;Habitat;Casera cheese;OBT:003483 (Valtellina Casera);OBT:001480 (cheese);OBT:003483;OBT:001480;['Valtellina', 'Casera'];['cheese'];Wrong class;155
+156;BB-norm-F-20167385-003;MM;0.5381;Habitat;Casera cheese;OBT:003483 (Valtellina Casera);OBT:001480 (cheese);OBT:003483;OBT:001480;['Valtellina', 'Casera'];['cheese'];Wrong class;156
+157;BB-norm-F-20167385-006;MM;0.5381;Habitat;Casera cheeses;OBT:003483 (Valtellina Casera);OBT:001480 (cheese);OBT:003483;OBT:001480;['Valtellina', 'Casera'];['cheese'];Wrong class;157
+158;BB-norm-F-20167385-006;MM;0.5381;Habitat;Casera (5) and Gorgonzola (1) cheeses;OBT:003483 (Valtellina Casera);OBT:001480 (cheese);OBT:003483;OBT:001480;['Valtellina', 'Casera'];['cheese'];Wrong class;158
+159;BB-norm-F-20167385-009;MM;0.5381;Habitat;Casera, Gorgonzola and Scimudin cheese;OBT:003483 (Valtellina Casera);OBT:001480 (cheese);OBT:003483;OBT:001480;['Valtellina', 'Casera'];['cheese'];Wrong class;159
+160;BB-norm-F-20167385-011;MM;0.5381;Habitat;Fontina cheese;OBT:003472 (Fontina);OBT:001480 (cheese);OBT:003472;OBT:001480;['Fontina'];['cheese'];Wrong class;160
+161;BB-norm-18094887;MM;0.5386;Habitat;Rhipicephalus sanguineus;OBT:002693 (brown dog tick);OBT:000496 (arthropod);OBT:002693;OBT:000496;['brown', 'dog', 'tick'];['arthropod'];General;161
+162;BB-norm-10496597;MM;0.541;Habitat;CD20-positive cells;OBT:001623 (lymphocyte);OBT:000061 (cell);OBT:001623;OBT:000061;['lymphocyte'];['cell'];General;162
+163;BB-norm-19552770;MM;0.541;Habitat;Cloacal swabs of partridges;OBT:001737 (rectal swab);OBT:000039 (animal part);OBT:001737;OBT:000039;['rectal', 'swab'];['animal', 'part'];General;163
+164;BB-norm-19552770;MM;0.541;Habitat;Cloacal;OBT:001488 (cloaca);OBT:000039 (animal part);OBT:001488;OBT:000039;['cloaca'];['animal', 'part'];General;164
+165;BB-norm-19552770;MM;0.541;Habitat;cloacal swabs;OBT:001737 (rectal swab);OBT:000039 (animal part);OBT:001737;OBT:000039;['rectal', 'swab'];['animal', 'part'];General;165
+166;BB-norm-21270066;MM;0.541;Habitat;rectal;OBT:001738 (rectum);OBT:000039 (animal part);OBT:001738;OBT:000039;['rectum'];['animal', 'part'];General;166
+167;BB-norm-21270066;MM;0.541;Habitat;rectal;OBT:001738 (rectum);OBT:000039 (animal part);OBT:001738;OBT:000039;['rectum'];['animal', 'part'];General;167
+168;BB-norm-21695078;MM;0.541;Habitat;mucosal surfaces;OBT:001654 (mucosal surface);OBT:000039 (animal part);OBT:001654;OBT:000039;['mucosal', 'surface'];['animal', 'part'];General;168
+169;BB-norm-F-25036636-001;MM;0.541;Habitat;moist bloomy rinds;OBT:001481 (cheese rind);OBT:000094 (food for human);OBT:001481;OBT:000094;['cheese', 'rind'];['food', 'for', 'human'];General;169
+170;BB-norm-20580604;MM;0.5508;Habitat;intestinal environment of healthy individuals with soft stools;OBT:002810 (intestine);OBT:000039 (animal part);OBT:002810;OBT:000039;['intestine'];['animal', 'part'];General3;170
+171;BB-norm-20580604;MM;0.5508;Habitat;intestinal environment of healthy individuals with soft stools;OBT:002810 (intestine);OBT:000039 (animal part);OBT:002810;OBT:000039;['intestine'];['animal', 'part'];General3;171
+172;BB-norm-16273411;MM;0.5515;Habitat;humans;OBT:003493 (pregnant woman);OBT:002488 (human);OBT:003493;OBT:002488;['pregnant', 'woman'];['human'];General3;172
+173;BB-norm-16273411;MM;0.5515;Habitat;38-year-old secondary recurrent aborter;OBT:003493 (pregnant woman);OBT:002488 (human);OBT:003493;OBT:002488;['pregnant', 'woman'];['human'];General3;173
+174;BB-norm-14633026;MM;0.5591;Habitat;Culex pipiens molestus;OBT:002142 (mosquito);OBT:000193 (animal);OBT:002142;OBT:000193;['mosquito'];['animal'];General;174
+175;BB-norm-18094887;MM;0.5591;Habitat;Ctenocephalides felis felis;OBT:002034 (flea);OBT:000193 (animal);OBT:002034;OBT:000193;['flea'];['animal'];General;175
+176;BB-norm-18789156;MM;0.5689;Habitat;infected monocytes;OBT:003001 (monocyte);OBT:000320 (immune cell);OBT:003001;OBT:000320;['monocyte'];['immune', 'cell'];General3;176
+177;BB-norm-16458564;MM;0.5704;Habitat;mothers;OBT:003491 (mother);OBT:003184 (baby);OBT:003491;OBT:003184;['mother'];['baby'];Wrong4;177
+178;BB-norm-16458564;MM;0.5704;Habitat;mothers;OBT:003491 (mother);OBT:003184 (baby);OBT:003491;OBT:003184;['mother'];['baby'];Wrong4;178
+179;BB-norm-25114119;MM;0.5837;Habitat;SCID mice;OBT:003211 (laboratory mice);OBT:001625 (mammalian);OBT:003211;OBT:001625;['laboratory', 'mice'];['mammalian'];General;179
+180;BB-norm-11989773;MM;0.5872;Habitat;LPM;OBT:000031 (agar);OBT:000001 (microbial habitat);OBT:000031;OBT:000001;['agar'];['microbial', 'habitat'];General2;180
+181;BB-norm-18694716;MM;0.5872;Habitat;LTQ Orbitrap high-resolution mass spectrometer;OBT:000103 (laboratory equipment);OBT:000001 (microbial habitat);OBT:000103;OBT:000001;['laboratory', 'equipment'];['microbial', 'habitat'];General2;181
+182;BB-norm-18694716;MM;0.5872;Habitat;LTQ Obitrap;OBT:000103 (laboratory equipment);OBT:000001 (microbial habitat);OBT:000103;OBT:000001;['laboratory', 'equipment'];['microbial', 'habitat'];General2;182
+183;BB-norm-25114119;MM;0.5872;Habitat;aerosol;OBT:000030 (aerosol);OBT:000001 (microbial habitat);OBT:000030;OBT:000001;['aerosol'];['microbial', 'habitat'];General2;183
+184;BB-norm-25114119;MM;0.5872;Habitat;aerosolized;OBT:000030 (aerosol);OBT:000001 (microbial habitat);OBT:000030;OBT:000001;['aerosol'];['microbial', 'habitat'];General2;184
+185;BB-norm-F-20167385-004;MM;0.5872;Habitat;community of Staphylococcus and micrococci-corynebacteria groups;OBT:000113 (microflora);OBT:000001 (microbial habitat);OBT:000113;OBT:000001;['microflora'];['microbial', 'habitat'];General2;185
+186;BB-norm-F-20167385-004;MM;0.5872;Habitat;SB;OBT:000031 (agar);OBT:000001 (microbial habitat);OBT:000031;OBT:000001;['agar'];['microbial', 'habitat'];General2;186
+187;BB-norm-16458564;MM;0.5908;Habitat;mucous;OBT:001220 (mucus);OBT:000039 (animal part);OBT:001220;OBT:000039;['mucus'];['animal', 'part'];General3;187
+188;BB-norm-F-20167385-003;MM;0.5908;Habitat;Casera cheese surface;OBT:001341 (surface of cheese);OBT:000094 (food for human);OBT:001341;OBT:000094;['surface', 'of', 'cheese'];['food', 'for', 'human'];General3;188
+189;BB-norm-F-20167385-004;MM;0.5908;Habitat;Scimudin and Taleggio surfaces;OBT:001341 (surface of cheese);OBT:000094 (food for human);OBT:001341;OBT:000094;['surface', 'of', 'cheese'];['food', 'for', 'human'];General3;189
+190;BB-norm-F-20167385-011;MM;0.5908;Habitat;Fontina cheese surface;OBT:001341 (surface of cheese);OBT:000094 (food for human);OBT:001341;OBT:000094;['surface', 'of', 'cheese'];['food', 'for', 'human'];General3;190
+191;BB-norm-18094887;MM;0.6084;Habitat;animals;OBT:000193 (animal);OBT:001625 (mammalian);OBT:000193;OBT:001625;['animal'];['mammalian'];Precise;191
+192;BB-norm-18094887;MM;0.6084;Habitat;Amblyomma aureolatum;OBT:001821 (tick);OBT:000193 (animal);OBT:001821;OBT:000193;['tick'];['animal'];General3;192
+193;BB-norm-18094887;MM;0.6084;Habitat;Amblyomma dubitatum;OBT:001821 (tick);OBT:000193 (animal);OBT:001821;OBT:000193;['tick'];['animal'];General3;193
+194;BB-norm-18094887;MM;0.6084;Habitat;animals;OBT:000193 (animal);OBT:001625 (mammalian);OBT:000193;OBT:001625;['animal'];['mammalian'];Precise;194
+195;BB-norm-14633026;MM;0.619;Habitat;culicine mosquito;OBT:002142 (mosquito);OBT:000496 (arthropod);OBT:002142;OBT:000496;['mosquito'];['arthropod'];General3;195
+196;BB-norm-18094887;MM;0.619;Habitat;fleas;OBT:002034 (flea);OBT:000496 (arthropod);OBT:002034;OBT:000496;['flea'];['arthropod'];General3;196
+197;BB-norm-18094887;MM;0.619;Habitat;fleas;OBT:002034 (flea);OBT:000496 (arthropod);OBT:002034;OBT:000496;['flea'];['arthropod'];General3;197
+198;BB-norm-9521147;MM;0.6236;Habitat;hyperimmune mouse;OBT:003211 (laboratory mice);OBT:002230 (rodent);OBT:003211;OBT:002230;['laboratory', 'mice'];['rodent'];General3;198
+199;BB-norm-1356998;MM;0.628;Habitat;human;OBT:003269 (patient with infectious disease);OBT:002488 (human);OBT:003269;OBT:002488;['patient', 'with', 'infectious', 'disease'];['human'];General3;199
+200;BB-norm-1356998;MM;0.628;Habitat;humans;OBT:003269 (patient with infectious disease);OBT:002488 (human);OBT:003269;OBT:002488;['patient', 'with', 'infectious', 'disease'];['human'];General3;200
+201;BB-norm-12109661;MM;0.6315;Habitat;H. pylori-negative subjects;OBT:002712 (healthy person);OBT:003156 (ill person);OBT:002712;OBT:003156;['healthy', 'person'];['ill', 'person'];Wrong2;201
+202;BB-norm-F-20167385-011;MM;0.6334;Habitat;Greek cheese;OBT:001480 (cheese);OBT:003381 (fermented cheese);OBT:001480;OBT:003381;['cheese'];['fermented', 'cheese'];Wrong class;202
+203;BB-norm-19552770;MM;0.6425;Habitat;game birds;OBT:001446 (bird);OBT:003300 (poultry);OBT:001446;OBT:003300;['bird'];['poultry'];Wrong class;203
+204;BB-norm-F-20167385-000;MM;0.667;Habitat;Casera;OBT:003483 (Valtellina Casera);OBT:003093 (fermented dairy product);OBT:003483;OBT:003093;['Valtellina', 'Casera'];['fermented', 'dairy', 'product'];General;204
+205;BB-norm-F-20167385-003;MM;0.667;Habitat;Casera;OBT:003483 (Valtellina Casera);OBT:003093 (fermented dairy product);OBT:003483;OBT:003093;['Valtellina', 'Casera'];['fermented', 'dairy', 'product'];General;205
+206;BB-norm-F-20167385-003;MM;0.667;Habitat;Casera;OBT:003483 (Valtellina Casera);OBT:003093 (fermented dairy product);OBT:003483;OBT:003093;['Valtellina', 'Casera'];['fermented', 'dairy', 'product'];General;206
+207;BB-norm-F-20167385-004;MM;0.667;Habitat;Casera;OBT:003483 (Valtellina Casera);OBT:003093 (fermented dairy product);OBT:003483;OBT:003093;['Valtellina', 'Casera'];['fermented', 'dairy', 'product'];General;207
+208;BB-norm-F-20167385-008;MM;0.667;Habitat;Casera Valtellina;OBT:003483 (Valtellina Casera);OBT:003093 (fermented dairy product);OBT:003483;OBT:003093;['Valtellina', 'Casera'];['fermented', 'dairy', 'product'];General;208
+209;BB-norm-20174624;MM;0.6693;Habitat;cell;OBT:000706 (leukocyte);OBT:000061 (cell);OBT:000706;OBT:000061;['leukocyte'];['cell'];General2;209
+210;BB-norm-21695078;MM;0.6693;Habitat;genital tract;OBT:000643 (genital tract);OBT:000039 (animal part);OBT:000643;OBT:000039;['genital', 'tract'];['animal', 'part'];General2;210
+211;BB-norm-21695078;MM;0.6693;Habitat;lungs;OBT:000716 (lung);OBT:000039 (animal part);OBT:000716;OBT:000039;['lung'];['animal', 'part'];General2;211
+212;BB-norm-460951;MM;0.6693;Habitat;lymph node;OBT:000718 (lymph node);OBT:000039 (animal part);OBT:000718;OBT:000039;['lymph', 'node'];['animal', 'part'];General2;212
+213;BB-norm-460951;MM;0.6693;Habitat;lymph;OBT:000717 (lymph);OBT:000039 (animal part);OBT:000717;OBT:000039;['lymph'];['animal', 'part'];General2;213
+214;BB-norm-18789156;MM;0.6777;Habitat;monocytes;OBT:003001 (monocyte);OBT:000801 (phagocyte);OBT:003001;OBT:000801;['monocyte'];['phagocyte'];Wrong4;214
+215;BB-norm-18789156;MM;0.6777;Habitat;macrophages;OBT:002995 (macrophage);OBT:000801 (phagocyte);OBT:002995;OBT:000801;['macrophage'];['phagocyte'];Wrong4;215
+216;BB-norm-20174624;MM;0.6777;Habitat;macrophages;OBT:002995 (macrophage);OBT:000801 (phagocyte);OBT:002995;OBT:000801;['macrophage'];['phagocyte'];Wrong4;216
+217;BB-norm-20174624;MM;0.6777;Habitat;murine macrophages;OBT:002995 (macrophage);OBT:000801 (phagocyte);OBT:002995;OBT:000801;['macrophage'];['phagocyte'];Wrong4;217
+218;BB-norm-20174624;MM;0.6777;Habitat;human monocyte-derived macrophages;OBT:002995 (macrophage);OBT:000801 (phagocyte);OBT:002995;OBT:000801;['macrophage'];['phagocyte'];Wrong4;218
+219;BB-norm-20174624;MM;0.6777;Habitat;human neutrophils;OBT:003004 (neutrophil);OBT:000801 (phagocyte);OBT:003004;OBT:000801;['neutrophil'];['phagocyte'];Wrong4;219
+220;BB-norm-20174624;MM;0.6777;Habitat;human neutrophils;OBT:003004 (neutrophil);OBT:000801 (phagocyte);OBT:003004;OBT:000801;['neutrophil'];['phagocyte'];Wrong4;220
+221;BB-norm-25114119;MM;0.6777;Habitat;macrophages;OBT:002995 (macrophage);OBT:000801 (phagocyte);OBT:002995;OBT:000801;['macrophage'];['phagocyte'];Wrong4;221
+222;BB-norm-25114119;MM;0.6829;Habitat;mice;OBT:003211 (laboratory mice);OBT:002530 (murine);OBT:003211;OBT:002530;['laboratory', 'mice'];['murine'];General2;222
+223;BB-norm-25114119;MM;0.6829;Habitat;mice;OBT:003211 (laboratory mice);OBT:002530 (murine);OBT:003211;OBT:002530;['laboratory', 'mice'];['murine'];General2;223
+224;BB-norm-16458564;MM;0.6853;Habitat;Watery stool;OBT:001102 (feces);OBT:000215 (body fluid);OBT:001102;OBT:000215;['feces'];['body', 'fluid'];General2;224
+225;BB-norm-16458564;MM;0.6853;Habitat;mucous stool;OBT:001102 (feces);OBT:000215 (body fluid);OBT:001102;OBT:000215;['feces'];['body', 'fluid'];General2;225
+226;BB-norm-20174624;MM;0.6853;Habitat;human PMNs;OBT:001134 (granulocyte);OBT:000320 (immune cell);OBT:001134;OBT:000320;['granulocyte'];['immune', 'cell'];General2;226
+227;BB-norm-20174624;MM;0.6853;Habitat;PMN cell;OBT:001134 (granulocyte);OBT:000320 (immune cell);OBT:001134;OBT:000320;['granulocyte'];['immune', 'cell'];General2;227
+228;BB-norm-20174624;MM;0.6853;Habitat;PMN cell;OBT:001134 (granulocyte);OBT:000320 (immune cell);OBT:001134;OBT:000320;['granulocyte'];['immune', 'cell'];General2;228
+229;BB-norm-20580604;MM;0.6853;Habitat;soft stool;OBT:001102 (feces);OBT:000215 (body fluid);OBT:001102;OBT:000215;['feces'];['body', 'fluid'];General2;229
+230;BB-norm-21695078;MM;0.6853;Habitat;mucosal;OBT:001218 (mucosal tissue);OBT:000196 (animal tissue);OBT:001218;OBT:000196;['mucosal', 'tissue'];['animal', 'tissue'];General2;230
+231;BB-norm-21695078;MM;0.6853;Habitat;mucosal;OBT:001218 (mucosal tissue);OBT:000196 (animal tissue);OBT:001218;OBT:000196;['mucosal', 'tissue'];['animal', 'tissue'];General2;231
+232;BB-norm-F-20167385-004;MM;0.6903;Habitat;Taleggio, Gorgonzola and Scimudin cheeses;OBT:003525 (Taleggio);OBT:003381 (fermented cheese);OBT:003525;OBT:003381;['Taleggio'];['fermented', 'cheese'];General;232
+233;BB-norm-F-20167385-006;MM;0.6903;Habitat;Taleggio and  Casera cheeses;OBT:003525 (Taleggio);OBT:003381 (fermented cheese);OBT:003525;OBT:003381;['Taleggio'];['fermented', 'cheese'];General;233
+234;BB-norm-10496597;MM;0.6949;Habitat;lymphocytic;OBT:001623 (lymphocyte);OBT:000706 (leukocyte);OBT:001623;OBT:000706;['lymphocyte'];['leukocyte'];General2;234
+235;BB-norm-10496597;MM;0.6949;Habitat;lymphocytic;OBT:001623 (lymphocyte);OBT:000706 (leukocyte);OBT:001623;OBT:000706;['lymphocyte'];['leukocyte'];General2;235
+236;BB-norm-18094887;MM;0.6949;Habitat;Amblyomma cajennense;OBT:001821 (tick);OBT:000496 (arthropod);OBT:001821;OBT:000496;['tick'];['arthropod'];General2;236
+237;BB-norm-9745160;MM;0.6949;Habitat;duodenal ulcer;OBT:001533 (duodenal ulcer);OBT:000933 (ulcer);OBT:001533;OBT:000933;['duodenal', 'ulcer'];['ulcer'];General2;237
+238;BB-norm-9745160;MM;0.6949;Habitat;duodenal ulcer;OBT:001533 (duodenal ulcer);OBT:000933 (ulcer);OBT:001533;OBT:000933;['duodenal', 'ulcer'];['ulcer'];General2;238
+239;BB-norm-9745160;MM;0.6949;Habitat;duodenal ulcer;OBT:001533 (duodenal ulcer);OBT:000933 (ulcer);OBT:001533;OBT:000933;['duodenal', 'ulcer'];['ulcer'];General2;239
+240;BB-norm-9745160;MM;0.6949;Habitat;duodenal ulcer;OBT:001533 (duodenal ulcer);OBT:000933 (ulcer);OBT:001533;OBT:000933;['duodenal', 'ulcer'];['ulcer'];General2;240
+241;BB-norm-18094887;MM;0.6987;Habitat;dogs;OBT:003092 (dog);OBT:001625 (mammalian);OBT:003092;OBT:001625;['dog'];['mammalian'];General1;241
+242;BB-norm-18094887;MM;0.6987;Habitat;cats;OBT:003086 (cat);OBT:001625 (mammalian);OBT:003086;OBT:001625;['cat'];['mammalian'];General1;242
+243;BB-norm-18094887;MM;0.6987;Habitat;dog;OBT:003092 (dog);OBT:001625 (mammalian);OBT:003092;OBT:001625;['dog'];['mammalian'];General1;243
+244;BB-norm-18094887;MM;0.6987;Habitat;dog;OBT:003092 (dog);OBT:001625 (mammalian);OBT:003092;OBT:001625;['dog'];['mammalian'];General1;244
+245;BB-norm-F-20167385-000;MM;0.705;Habitat;Gorgonzola, Taleggio and Formaggio di Fossa cheeses;OBT:003504 (Gorgonzola);OBT:003428 (ripened cheese);OBT:003504;OBT:003428;['Gorgonzola'];['ripened', 'cheese'];General3;245
+246;BB-norm-F-20167385-000;MM;0.705;Habitat;Taleggio and Formaggio di Fossa cheeses;OBT:003525 (Taleggio);OBT:003428 (ripened cheese);OBT:003525;OBT:003428;['Taleggio'];['ripened', 'cheese'];General3;246
+247;BB-norm-F-20167385-003;MM;0.705;Habitat;Gorgonzola;OBT:003504 (Gorgonzola);OBT:003428 (ripened cheese);OBT:003504;OBT:003428;['Gorgonzola'];['ripened', 'cheese'];General3;247
+248;BB-norm-F-20167385-003;MM;0.705;Habitat;Taleggio;OBT:003525 (Taleggio);OBT:003428 (ripened cheese);OBT:003525;OBT:003428;['Taleggio'];['ripened', 'cheese'];General3;248
+249;BB-norm-F-20167385-004;MM;0.705;Habitat;Gorgonzola;OBT:003504 (Gorgonzola);OBT:003428 (ripened cheese);OBT:003504;OBT:003428;['Gorgonzola'];['ripened', 'cheese'];General3;249
+250;BB-norm-F-20167385-004;MM;0.705;Habitat;Taleggio;OBT:003525 (Taleggio);OBT:003428 (ripened cheese);OBT:003525;OBT:003428;['Taleggio'];['ripened', 'cheese'];General3;250
+251;BB-norm-F-20167385-006;MM;0.705;Habitat;Gorgonzola;OBT:003504 (Gorgonzola);OBT:003428 (ripened cheese);OBT:003504;OBT:003428;['Gorgonzola'];['ripened', 'cheese'];General3;251
+252;BB-norm-F-20167385-006;MM;0.705;Habitat;Taleggio;OBT:003525 (Taleggio);OBT:003428 (ripened cheese);OBT:003525;OBT:003428;['Taleggio'];['ripened', 'cheese'];General3;252
+253;BB-norm-F-20167385-006;MM;0.705;Habitat;Gorgonzola;OBT:003504 (Gorgonzola);OBT:003428 (ripened cheese);OBT:003504;OBT:003428;['Gorgonzola'];['ripened', 'cheese'];General3;253
+254;BB-norm-F-20167385-006;MM;0.705;Habitat;Taleggio;OBT:003525 (Taleggio);OBT:003428 (ripened cheese);OBT:003525;OBT:003428;['Taleggio'];['ripened', 'cheese'];General3;254
+255;BB-norm-F-20167385-007;MM;0.705;Habitat;Gorgonzola and Taleggio  cheeses;OBT:003504 (Gorgonzola);OBT:003428 (ripened cheese);OBT:003504;OBT:003428;['Gorgonzola'];['ripened', 'cheese'];General3;255
+256;BB-norm-F-20167385-011;MM;0.705;Habitat;Gorgonzola;OBT:003504 (Gorgonzola);OBT:003428 (ripened cheese);OBT:003504;OBT:003428;['Gorgonzola'];['ripened', 'cheese'];General3;256
+257;BB-norm-F-20167385-011;MM;0.705;Habitat;Taleggio;OBT:003525 (Taleggio);OBT:003428 (ripened cheese);OBT:003525;OBT:003428;['Taleggio'];['ripened', 'cheese'];General3;257
+258;BB-norm-F-20167385-011;MM;0.705;Habitat;Gorgonzola;OBT:003504 (Gorgonzola);OBT:003428 (ripened cheese);OBT:003504;OBT:003428;['Gorgonzola'];['ripened', 'cheese'];General3;258
+259;BB-norm-F-20167385-011;MM;0.705;Habitat;Gorgonzola;OBT:003504 (Gorgonzola);OBT:003428 (ripened cheese);OBT:003504;OBT:003428;['Gorgonzola'];['ripened', 'cheese'];General3;259
+260;BB-norm-12109661;MM;0.7132;Habitat;young Japanese people;OBT:003188 (child);OBT:002488 (human);OBT:003188;OBT:002488;['child'];['human'];General1;260
+261;BB-norm-16458564;MM;0.7132;Habitat;children less than five years of age;OBT:003188 (child);OBT:002488 (human);OBT:003188;OBT:002488;['child'];['human'];General1;261
+262;BB-norm-16458564;MM;0.7132;Habitat;study population;OBT:003188 (child);OBT:002488 (human);OBT:003188;OBT:002488;['child'];['human'];General1;262
+263;BB-norm-18694716;MM;0.7314;Habitat;mixtures of pure compounds and uniformly 13C-labeled cell extracts;OBT:000007 (experimental medium);OBT:000001 (microbial habitat);OBT:000007;OBT:000001;['experimental', 'medium'];['microbial', 'habitat'];General1;263
+264;BB-norm-19339076;MM;0.7314;Habitat;lactose-free M17 medium supplemented with either glucose only (GM17);OBT:000007 (experimental medium);OBT:000001 (microbial habitat);OBT:000007;OBT:000001;['experimental', 'medium'];['microbial', 'habitat'];General1;264
+265;BB-norm-23902156;MM;0.7314;Habitat;Penicillium-sensitive atopic sera;OBT:000007 (experimental medium);OBT:000001 (microbial habitat);OBT:000007;OBT:000001;['experimental', 'medium'];['microbial', 'habitat'];General1;265
+266;BB-norm-F-20167385-003;MM;0.7319;Habitat;Casera and Gorgonzola cheeses;OBT:003483 (Valtellina Casera);OBT:003381 (fermented cheese);OBT:003483;OBT:003381;['Valtellina', 'Casera'];['fermented', 'cheese'];General3;266
+267;BB-norm-F-20167385-003;MM;0.7319;Habitat;Formaggio di Fossa and Scimudin cheeses;OBT:003473 (Formaggio di Fossa);OBT:003381 (fermented cheese);OBT:003473;OBT:003381;['Formaggio', 'di', 'Fossa'];['fermented', 'cheese'];General3;267
+268;BB-norm-F-20167385-004;MM;0.7319;Habitat;Casera, Taleggio, Gorgonzola and Scimudin cheeses;OBT:003483 (Valtellina Casera);OBT:003381 (fermented cheese);OBT:003483;OBT:003381;['Valtellina', 'Casera'];['fermented', 'cheese'];General3;268
+269;BB-norm-20580604;MM;0.7404;Habitat;intestine;OBT:002810 (intestine);OBT:000642 (gastrointestinal tract part);OBT:002810;OBT:000642;['intestine'];['gastrointestinal', 'tract', 'part'];General1;269
+270;BB-norm-20174624;MM;0.7464;Habitat;PMNs;OBT:001134 (granulocyte);OBT:003004 (neutrophil);OBT:001134;OBT:003004;['granulocyte'];['neutrophil'];Precise;270
+271;BB-norm-20174624;MM;0.7464;Habitat;PMN;OBT:001134 (granulocyte);OBT:003004 (neutrophil);OBT:001134;OBT:003004;['granulocyte'];['neutrophil'];Precise;271
+272;BB-norm-20174624;MM;0.7464;Habitat;PMN;OBT:001134 (granulocyte);OBT:003004 (neutrophil);OBT:001134;OBT:003004;['granulocyte'];['neutrophil'];Precise;272
+273;BB-norm-20174624;MM;0.7464;Habitat;PMN;OBT:001134 (granulocyte);OBT:003004 (neutrophil);OBT:001134;OBT:003004;['granulocyte'];['neutrophil'];Precise;273
+274;BB-norm-20174624;MM;0.7464;Habitat;PMN;OBT:001134 (granulocyte);OBT:003004 (neutrophil);OBT:001134;OBT:003004;['granulocyte'];['neutrophil'];Precise;274
+275;BB-norm-20174624;MM;0.7464;Habitat;PMN;OBT:001134 (granulocyte);OBT:003004 (neutrophil);OBT:001134;OBT:003004;['granulocyte'];['neutrophil'];Precise;275
+276;BB-norm-20174624;MM;0.7464;Habitat;PMN;OBT:001134 (granulocyte);OBT:003004 (neutrophil);OBT:001134;OBT:003004;['granulocyte'];['neutrophil'];Precise;276
+277;BB-norm-20174624;MM;0.7464;Habitat;PMN;OBT:001134 (granulocyte);OBT:003004 (neutrophil);OBT:001134;OBT:003004;['granulocyte'];['neutrophil'];Precise;277
+278;BB-norm-19552770;MM;0.7584;Habitat;partridges;OBT:003066 (partridge);OBT:001446 (bird);OBT:003066;OBT:001446;['partridge'];['bird'];General1;278
+279;BB-norm-F-14624315-000;MM;0.7701;Habitat;Gouda;OBT:003474 (Gouda);OBT:003428 (ripened cheese);OBT:003474;OBT:003428;['Gouda'];['ripened', 'cheese'];General2;279
+280;BB-norm-F-14624315-000;MM;0.7701;Habitat;Cheddar;OBT:003469 (Cheddar);OBT:003428 (ripened cheese);OBT:003469;OBT:003428;['Cheddar'];['ripened', 'cheese'];General2;280
+281;BB-norm-F-20167385-000;MM;0.7701;Habitat;Formaggio di Fossa cheeses;OBT:003473 (Formaggio di Fossa);OBT:003428 (ripened cheese);OBT:003473;OBT:003428;['Formaggio', 'di', 'Fossa'];['ripened', 'cheese'];General2;281
+282;BB-norm-F-20167385-003;MM;0.7701;Habitat;Formaggio di Fossa;OBT:003473 (Formaggio di Fossa);OBT:003428 (ripened cheese);OBT:003473;OBT:003428;['Formaggio', 'di', 'Fossa'];['ripened', 'cheese'];General2;282
+283;BB-norm-F-20167385-003;MM;0.7701;Habitat;Formaggio di Fossa;OBT:003473 (Formaggio di Fossa);OBT:003428 (ripened cheese);OBT:003473;OBT:003428;['Formaggio', 'di', 'Fossa'];['ripened', 'cheese'];General2;283
+284;BB-norm-F-20167385-004;MM;0.7701;Habitat;Formaggio di Fossa;OBT:003473 (Formaggio di Fossa);OBT:003428 (ripened cheese);OBT:003473;OBT:003428;['Formaggio', 'di', 'Fossa'];['ripened', 'cheese'];General2;284
+285;BB-norm-F-20167385-004;MM;0.7701;Habitat;Formaggio di Fossa;OBT:003473 (Formaggio di Fossa);OBT:003428 (ripened cheese);OBT:003473;OBT:003428;['Formaggio', 'di', 'Fossa'];['ripened', 'cheese'];General2;285
+286;BB-norm-F-20167385-007;MM;0.7701;Habitat;Formaggio di Fossa, Gorgonzola and Taleggio  cheeses;OBT:003473 (Formaggio di Fossa);OBT:003428 (ripened cheese);OBT:003473;OBT:003428;['Formaggio', 'di', 'Fossa'];['ripened', 'cheese'];General2;286
+287;BB-norm-F-20167385-011;MM;0.7701;Habitat;Formaggio di Fossa cheese;OBT:003473 (Formaggio di Fossa);OBT:003428 (ripened cheese);OBT:003473;OBT:003428;['Formaggio', 'di', 'Fossa'];['ripened', 'cheese'];General2;287
+288;BB-norm-F-20167385-011;MM;0.7701;Habitat;Fontina;OBT:003472 (Fontina);OBT:003428 (ripened cheese);OBT:003472;OBT:003428;['Fontina'];['ripened', 'cheese'];General2;288
+289;BB-norm-F-20167385-014;MM;0.7701;Habitat;Formaggio di  Fossa cheese;OBT:003473 (Formaggio di Fossa);OBT:003428 (ripened cheese);OBT:003473;OBT:003428;['Formaggio', 'di', 'Fossa'];['ripened', 'cheese'];General2;289
+290;BB-norm-11989773;MM;0.7737;Habitat;selective agars;OBT:000031 (agar);OBT:000007 (experimental medium);OBT:000031;OBT:000007;['agar'];['experimental', 'medium'];General1;290
+291;BB-norm-11989773;MM;0.7737;Habitat;PALCAM;OBT:000031 (agar);OBT:000007 (experimental medium);OBT:000031;OBT:000007;['agar'];['experimental', 'medium'];General1;291
+292;BB-norm-9521147;MM;0.7737;Habitat;microtiter plates;OBT:000103 (laboratory equipment);OBT:000006 (artificial environment);OBT:000103;OBT:000006;['laboratory', 'equipment'];['artificial', 'environment'];General1;292
+293;BB-norm-F-20167385-004;MM;0.7737;Habitat;Rogosa agar;OBT:000031 (agar);OBT:000007 (experimental medium);OBT:000031;OBT:000007;['agar'];['experimental', 'medium'];General1;293
+294;BB-norm-F-20167385-004;MM;0.7737;Habitat;Pseudomonas agar;OBT:000031 (agar);OBT:000007 (experimental medium);OBT:000031;OBT:000007;['agar'];['experimental', 'medium'];General1;294
+295;BB-norm-F-14624315-000;MM;0.7872;Habitat;yoghurts;OBT:003241 (yogurt);OBT:003093 (fermented dairy product);OBT:003241;OBT:003093;['yogurt'];['fermented', 'dairy', 'product'];General2;295
+296;BB-norm-12109661;MM;0.7898;Habitat;H. pylori-positive subjects;OBT:003269 (patient with infectious disease);OBT:003156 (ill person);OBT:003269;OBT:003156;['patient', 'with', 'infectious', 'disease'];['ill', 'person'];General2;296
+297;BB-norm-10496597;MM;0.7948;Habitat;gastric mucosal-associated lymphoid tissue;OBT:000334 (lymphatic system part);OBT:000039 (animal part);OBT:000334;OBT:000039;['lymphatic', 'system', 'part'];['animal', 'part'];General1;297
+298;BB-norm-18789156;MM;0.7948;Habitat;host tissues;OBT:000196 (animal tissue);OBT:000039 (animal part);OBT:000196;OBT:000039;['animal', 'tissue'];['animal', 'part'];General1;298
+299;BB-norm-21695078;MM;0.7948;Habitat;oviduct;OBT:000463 (urogenital tract part);OBT:000039 (animal part);OBT:000463;OBT:000039;['urogenital', 'tract', 'part'];['animal', 'part'];General1;299
+300;BB-norm-15293611;MM;0.8065;Habitat;lung;OBT:000716 (lung);OBT:000364 (organ);OBT:000716;OBT:000364;['lung'];['organ'];General1;300
+301;BB-norm-19339076;MM;0.8065;Habitat;Bile;OBT:000514 (bile);OBT:000215 (body fluid);OBT:000514;OBT:000215;['bile'];['body', 'fluid'];General1;301
+302;BB-norm-19339076;MM;0.8065;Habitat;Bile;OBT:000514 (bile);OBT:000215 (body fluid);OBT:000514;OBT:000215;['bile'];['body', 'fluid'];General1;302
+303;BB-norm-19339076;MM;0.8065;Habitat;bile;OBT:000514 (bile);OBT:000215 (body fluid);OBT:000514;OBT:000215;['bile'];['body', 'fluid'];General1;303
+304;BB-norm-19339076;MM;0.8065;Habitat;bile;OBT:000514 (bile);OBT:000215 (body fluid);OBT:000514;OBT:000215;['bile'];['body', 'fluid'];General1;304
+305;BB-norm-19339076;MM;0.8065;Habitat;bile;OBT:000514 (bile);OBT:000215 (body fluid);OBT:000514;OBT:000215;['bile'];['body', 'fluid'];General1;305
+306;BB-norm-19339076;MM;0.8065;Habitat;bile;OBT:000514 (bile);OBT:000215 (body fluid);OBT:000514;OBT:000215;['bile'];['body', 'fluid'];General1;306
+307;BB-norm-19339076;MM;0.8065;Habitat;bile;OBT:000514 (bile);OBT:000215 (body fluid);OBT:000514;OBT:000215;['bile'];['body', 'fluid'];General1;307
+308;BB-norm-19339076;MM;0.8065;Habitat;bile;OBT:000514 (bile);OBT:000215 (body fluid);OBT:000514;OBT:000215;['bile'];['body', 'fluid'];General1;308
+309;BB-norm-19339076;MM;0.8065;Habitat;bile;OBT:000514 (bile);OBT:000215 (body fluid);OBT:000514;OBT:000215;['bile'];['body', 'fluid'];General1;309
+310;BB-norm-19339076;MM;0.8065;Habitat;bile;OBT:000514 (bile);OBT:000215 (body fluid);OBT:000514;OBT:000215;['bile'];['body', 'fluid'];General1;310
+311;BB-norm-19339076;MM;0.8065;Habitat;bile;OBT:000514 (bile);OBT:000215 (body fluid);OBT:000514;OBT:000215;['bile'];['body', 'fluid'];General1;311
+312;BB-norm-19339076;MM;0.8065;Habitat;bile;OBT:000514 (bile);OBT:000215 (body fluid);OBT:000514;OBT:000215;['bile'];['body', 'fluid'];General1;312
+313;BB-norm-19339076;MM;0.8065;Habitat;bile;OBT:000514 (bile);OBT:000215 (body fluid);OBT:000514;OBT:000215;['bile'];['body', 'fluid'];General1;313
+314;BB-norm-19339076;MM;0.8065;Habitat;bile;OBT:000514 (bile);OBT:000215 (body fluid);OBT:000514;OBT:000215;['bile'];['body', 'fluid'];General1;314
+315;BB-norm-19339076;MM;0.8065;Habitat;bile;OBT:000514 (bile);OBT:000215 (body fluid);OBT:000514;OBT:000215;['bile'];['body', 'fluid'];General1;315
+316;BB-norm-19339076;MM;0.8065;Habitat;bile;OBT:000514 (bile);OBT:000215 (body fluid);OBT:000514;OBT:000215;['bile'];['body', 'fluid'];General1;316
+317;BB-norm-19339076;MM;0.8065;Habitat;bile;OBT:000514 (bile);OBT:000215 (body fluid);OBT:000514;OBT:000215;['bile'];['body', 'fluid'];General1;317
+318;BB-norm-19339076;MM;0.8065;Habitat;bile;OBT:000514 (bile);OBT:000215 (body fluid);OBT:000514;OBT:000215;['bile'];['body', 'fluid'];General1;318
+319;BB-norm-21270066;MM;0.8065;Habitat;perianal ulceration;OBT:000933 (ulcer);OBT:000332 (lesion);OBT:000933;OBT:000332;['ulcer'];['lesion'];General1;319
+320;BB-norm-21270066;MM;0.8065;Habitat;perianal ulcer;OBT:000933 (ulcer);OBT:000332 (lesion);OBT:000933;OBT:000332;['ulcer'];['lesion'];General1;320
+321;BB-norm-21270066;MM;0.8065;Habitat;perianal ulcer;OBT:000933 (ulcer);OBT:000332 (lesion);OBT:000933;OBT:000332;['ulcer'];['lesion'];General1;321
+322;BB-norm-21695078;MM;0.8065;Habitat;lung;OBT:000716 (lung);OBT:000364 (organ);OBT:000716;OBT:000364;['lung'];['organ'];General1;322
+323;BB-norm-21695078;MM;0.8065;Habitat;lung;OBT:000716 (lung);OBT:000364 (organ);OBT:000716;OBT:000364;['lung'];['organ'];General1;323
+324;BB-norm-460951;MM;0.8065;Habitat;superficial abscesses;OBT:000476 (abscess);OBT:000332 (lesion);OBT:000476;OBT:000332;['abscess'];['lesion'];General1;324
+325;BB-norm-15293611;MM;0.8134;Habitat;Sputum;OBT:001335 (sputum);OBT:000622 (excreta);OBT:001335;OBT:000622;['sputum'];['excreta'];General1;325
+326;BB-norm-15293611;MM;0.8134;Habitat;sputum;OBT:001335 (sputum);OBT:000622 (excreta);OBT:001335;OBT:000622;['sputum'];['excreta'];General1;326
+327;BB-norm-20174624;MM;0.8134;Habitat;polymorphonuclear leukocytes;OBT:001134 (granulocyte);OBT:000706 (leukocyte);OBT:001134;OBT:000706;['granulocyte'];['leukocyte'];General1;327
+328;BB-norm-20580604;MM;0.8134;Habitat;probiotic;OBT:001269 (probiotic food);OBT:000633 (food for particular diet);OBT:001269;OBT:000633;['probiotic', 'food'];['food', 'for', 'particular', 'diet'];General1;328
+329;BB-norm-20580604;MM;0.8134;Habitat;probiotic;OBT:001269 (probiotic food);OBT:000633 (food for particular diet);OBT:001269;OBT:000633;['probiotic', 'food'];['food', 'for', 'particular', 'diet'];General1;329
+330;BB-norm-20580604;MM;0.8134;Habitat;probiotic;OBT:001269 (probiotic food);OBT:000633 (food for particular diet);OBT:001269;OBT:000633;['probiotic', 'food'];['food', 'for', 'particular', 'diet'];General1;330
+331;BB-norm-20580604;MM;0.8134;Habitat;probiotic;OBT:001269 (probiotic food);OBT:000633 (food for particular diet);OBT:001269;OBT:000633;['probiotic', 'food'];['food', 'for', 'particular', 'diet'];General1;331
+332;BB-norm-21270066;MM;0.8134;Habitat;perianal;OBT:000988 (anus);OBT:000642 (gastrointestinal tract part);OBT:000988;OBT:000642;['anus'];['gastrointestinal', 'tract', 'part'];General1;332
+333;BB-norm-21270066;MM;0.8134;Habitat;perianal;OBT:000988 (anus);OBT:000642 (gastrointestinal tract part);OBT:000988;OBT:000642;['anus'];['gastrointestinal', 'tract', 'part'];General1;333
+334;BB-norm-21270066;MM;0.8134;Habitat;perianal;OBT:000988 (anus);OBT:000642 (gastrointestinal tract part);OBT:000988;OBT:000642;['anus'];['gastrointestinal', 'tract', 'part'];General1;334
+335;BB-norm-3544198;MM;0.8134;Habitat;urine;OBT:001367 (urine);OBT:000622 (excreta);OBT:001367;OBT:000622;['urine'];['excreta'];General1;335
+336;BB-norm-9745160;MM;0.8134;Habitat;ulcer;OBT:000933 (ulcer);OBT:001248 (peptic ulcer);OBT:000933;OBT:001248;['ulcer'];['peptic', 'ulcer'];Precise;336
+337;BB-norm-F-14624315-000;MM;0.8134;Habitat;dairy products;OBT:001208 (milk and milk product);OBT:000489 (animal product and primary derivative thereof);OBT:001208;OBT:000489;['milk', 'and', 'milk', 'product'];['animal', 'product', 'and', 'primary', 'derivative', 'thereof'];General1;337
+338;BB-norm-F-20167385-004;MM;0.8134;Habitat;cheese surfaces;OBT:001341 (surface of cheese);OBT:000902 (surface of food);OBT:001341;OBT:000902;['surface', 'of', 'cheese'];['surface', 'of', 'food'];General1;338
+339;BB-norm-F-20167385-004;MM;0.8134;Habitat;cheese surfaces;OBT:001341 (surface of cheese);OBT:000902 (surface of food);OBT:001341;OBT:000902;['surface', 'of', 'cheese'];['surface', 'of', 'food'];General1;339
+340;BB-norm-F-20167385-004;MM;0.8134;Habitat;Taleggio surfaces;OBT:001341 (surface of cheese);OBT:000902 (surface of food);OBT:001341;OBT:000902;['surface', 'of', 'cheese'];['surface', 'of', 'food'];General1;340
+341;BB-norm-F-20167385-004;MM;0.8134;Habitat;cheese surfaces;OBT:001341 (surface of cheese);OBT:000902 (surface of food);OBT:001341;OBT:000902;['surface', 'of', 'cheese'];['surface', 'of', 'food'];General1;341
+342;BB-norm-F-20167385-010;MM;0.8134;Habitat;surface of Gobbeen cheese;OBT:001341 (surface of cheese);OBT:000902 (surface of food);OBT:001341;OBT:000902;['surface', 'of', 'cheese'];['surface', 'of', 'food'];General1;342
+343;BB-norm-F-20167385-011;MM;0.8134;Habitat;cheese surface;OBT:001341 (surface of cheese);OBT:000902 (surface of food);OBT:001341;OBT:000902;['surface', 'of', 'cheese'];['surface', 'of', 'food'];General1;343
+344;BB-norm-F-20167385-013;MM;0.8134;Habitat;cheese surface;OBT:001341 (surface of cheese);OBT:000902 (surface of food);OBT:001341;OBT:000902;['surface', 'of', 'cheese'];['surface', 'of', 'food'];General1;344
+345;BB-norm-F-25036636-005;MM;0.8134;Habitat;raw milk;OBT:001276 (raw milk);OBT:000834 (raw primary commodities);OBT:001276;OBT:000834;['raw', 'milk'];['raw', 'primary', 'commodities'];General1;345
+346;BB-norm-9745160;MM;0.8176;Habitat;duodenal;OBT:001534 (duodenum);OBT:001366 (upper gastrointestinal tract part);OBT:001534;OBT:001366;['duodenum'];['upper', 'gastrointestinal', 'tract', 'part'];General1;346
+347;BB-norm-9745160;MM;0.8176;Habitat;duodenal;OBT:001534 (duodenum);OBT:001366 (upper gastrointestinal tract part);OBT:001534;OBT:001366;['duodenum'];['upper', 'gastrointestinal', 'tract', 'part'];General1;347
+348;BB-norm-9745160;MM;0.8176;Habitat;duodenal;OBT:001534 (duodenum);OBT:001366 (upper gastrointestinal tract part);OBT:001534;OBT:001366;['duodenum'];['upper', 'gastrointestinal', 'tract', 'part'];General1;348
+349;BB-norm-9745160;MM;0.8176;Habitat;ulcer;OBT:001533 (duodenal ulcer);OBT:001248 (peptic ulcer);OBT:001533;OBT:001248;['duodenal', 'ulcer'];['peptic', 'ulcer'];General1;349
+350;BB-norm-9745160;MM;0.8176;Habitat;duodenal;OBT:001534 (duodenum);OBT:001366 (upper gastrointestinal tract part);OBT:001534;OBT:001366;['duodenum'];['upper', 'gastrointestinal', 'tract', 'part'];General1;350
+351;BB-norm-18094887;MM;0.8203;Habitat;flea;OBT:002034 (flea);OBT:001453 (blood-feeding insect);OBT:002034;OBT:001453;['flea'];['blood-feeding', 'insect'];General1;351
+352;BB-norm-18094887;MM;0.8203;Habitat;opossums;OBT:002161 (opossum);OBT:001625 (mammalian);OBT:002161;OBT:001625;['opossum'];['mammalian'];General1;352
+353;BB-norm-18094887;MM;0.8203;Habitat;opossum;OBT:002161 (opossum);OBT:001625 (mammalian);OBT:002161;OBT:001625;['opossum'];['mammalian'];General1;353
+354;BB-norm-18094887;MM;0.8203;Habitat;opossum;OBT:002161 (opossum);OBT:001625 (mammalian);OBT:002161;OBT:001625;['opossum'];['mammalian'];General1;354
+355;BB-norm-1214327;MM;0.823;Habitat;healthy carriers;OBT:002712 (healthy person);OBT:002488 (human);OBT:002712;OBT:002488;['healthy', 'person'];['human'];General1;355
+356;BB-norm-20580604;MM;0.823;Habitat;healthy individuals with soft stools;OBT:002712 (healthy person);OBT:002488 (human);OBT:002712;OBT:002488;['healthy', 'person'];['human'];General1;356
+357;BB-norm-20580604;MM;0.823;Habitat;healthy individuals with soft stools;OBT:002712 (healthy person);OBT:002488 (human);OBT:002712;OBT:002488;['healthy', 'person'];['human'];General1;357
+358;BB-norm-20580604;MM;0.823;Habitat;healthy individuals with soft stool;OBT:002712 (healthy person);OBT:002488 (human);OBT:002712;OBT:002488;['healthy', 'person'];['human'];General1;358
+359;BB-norm-21270066;MM;0.8285;Habitat;men;OBT:003451 (man);OBT:003245 (adult human);OBT:003451;OBT:003245;['man'];['adult', 'human'];General1;359
+360;BB-norm-20174624;MM;0.8315;Habitat;murine macrophages and dendritic cells;OBT:002785 (dendritic cell);OBT:000801 (phagocyte);OBT:002785;OBT:000801;['dendritic', 'cell'];['phagocyte'];General1;360
+361;BB-norm-F-20167385-002;MM;0.8533;Habitat;soft smear cheeses;OBT:003494 (smear ripened cheese);OBT:003459 (soft cheese);OBT:003494;OBT:003459;['smear', 'ripened', 'cheese'];['soft', 'cheese'];General1;361
+362;BB-norm-25204345;MM;0.8621;Habitat;yoghurt;OBT:003241 (yogurt);OBT:003146 (fermented milk);OBT:003241;OBT:003146;['yogurt'];['fermented', 'milk'];General1;362
+363;BB-norm-1214327;MM;0.8635;Habitat;gastroenteritis patients;OBT:003269 (patient with infectious disease);OBT:003220 (patient);OBT:003269;OBT:003220;['patient', 'with', 'infectious', 'disease'];['patient'];General1;363
+364;BB-norm-1356998;MM;0.8635;Habitat;patients suffering from rickettsial disease of different degrees of severity;OBT:003269 (patient with infectious disease);OBT:003220 (patient);OBT:003269;OBT:003220;['patient', 'with', 'infectious', 'disease'];['patient'];General1;364
+365;BB-norm-15618837;MM;0.8635;Habitat;Patients with H. pylori infection;OBT:003269 (patient with infectious disease);OBT:003220 (patient);OBT:003269;OBT:003220;['patient', 'with', 'infectious', 'disease'];['patient'];General1;365
+366;BB-norm-3544198;MM;0.8635;Habitat;leprosy patients;OBT:003269 (patient with infectious disease);OBT:003220 (patient);OBT:003269;OBT:003220;['patient', 'with', 'infectious', 'disease'];['patient'];General1;366
+367;BB-norm-3544198;MM;0.8635;Habitat;leprosy patients;OBT:003269 (patient with infectious disease);OBT:003220 (patient);OBT:003269;OBT:003220;['patient', 'with', 'infectious', 'disease'];['patient'];General1;367
+368;BB-norm-3544198;MM;0.8635;Habitat;LL patients;OBT:003269 (patient with infectious disease);OBT:003220 (patient);OBT:003269;OBT:003220;['patient', 'with', 'infectious', 'disease'];['patient'];General1;368
+369;BB-norm-3544198;MM;0.8635;Habitat;LL patients;OBT:003269 (patient with infectious disease);OBT:003220 (patient);OBT:003269;OBT:003220;['patient', 'with', 'infectious', 'disease'];['patient'];General1;369
+370;BB-norm-9521147;MM;0.8635;Habitat;patients with different clinical spectra and with other infections;OBT:003269 (patient with infectious disease);OBT:003220 (patient);OBT:003269;OBT:003220;['patient', 'with', 'infectious', 'disease'];['patient'];General1;370
+371;BB-norm-9521147;MM;0.8635;Habitat;patients with melioidosis;OBT:003269 (patient with infectious disease);OBT:003220 (patient);OBT:003269;OBT:003220;['patient', 'with', 'infectious', 'disease'];['patient'];General1;371
+372;BB-norm-9745160;MM;0.8635;Habitat;patients with active duodenal ulcer disease and H pylori infection;OBT:003269 (patient with infectious disease);OBT:003220 (patient);OBT:003269;OBT:003220;['patient', 'with', 'infectious', 'disease'];['patient'];General1;372
+373;BB-norm-9745160;MM;0.8635;Habitat;patients;OBT:003269 (patient with infectious disease);OBT:003220 (patient);OBT:003269;OBT:003220;['patient', 'with', 'infectious', 'disease'];['patient'];General1;373
+374;BB-norm-9745160;MM;0.8635;Habitat;patients;OBT:003269 (patient with infectious disease);OBT:003220 (patient);OBT:003269;OBT:003220;['patient', 'with', 'infectious', 'disease'];['patient'];General1;374
+375;BB-norm-9745160;MM;0.8635;Habitat;patients;OBT:003269 (patient with infectious disease);OBT:003220 (patient);OBT:003269;OBT:003220;['patient', 'with', 'infectious', 'disease'];['patient'];General1;375
+376;BB-norm-9745160;MM;0.8635;Habitat;patients with PPI-based triple therapy;OBT:003269 (patient with infectious disease);OBT:003220 (patient);OBT:003269;OBT:003220;['patient', 'with', 'infectious', 'disease'];['patient'];General1;376
+377;BB-norm-9745160;MM;0.8635;Habitat;patients with bismuth-based triple therapy;OBT:003269 (patient with infectious disease);OBT:003220 (patient);OBT:003269;OBT:003220;['patient', 'with', 'infectious', 'disease'];['patient'];General1;377
+378;BB-norm-9745160;MM;0.8635;Habitat;patients;OBT:003269 (patient with infectious disease);OBT:003220 (patient);OBT:003269;OBT:003220;['patient', 'with', 'infectious', 'disease'];['patient'];General1;378
+379;BB-norm-15293611;MM;0.8647;Habitat;clinic;OBT:002694 (clinic);OBT:002518 (medical center);OBT:002694;OBT:002518;['clinic'];['medical', 'center'];General1;379
+380;BB-norm-15618837;MM;0.8647;Habitat;clinic;OBT:002694 (clinic);OBT:002518 (medical center);OBT:002694;OBT:002518;['clinic'];['medical', 'center'];General1;380
+381;BB-norm-16458564;MM;0.8647;Habitat;hospitals;OBT:002714 (hospital);OBT:002518 (medical center);OBT:002714;OBT:002518;['hospital'];['medical', 'center'];General1;381
+382;BB-norm-16458564;MM;0.8647;Habitat;hospitals;OBT:002714 (hospital);OBT:002518 (medical center);OBT:002714;OBT:002518;['hospital'];['medical', 'center'];General1;382
+383;BB-norm-F-14624315-000;MM;0.8651;Habitat;semi-hard cheeses;OBT:003458 (semi soft cheese);OBT:003428 (ripened cheese);OBT:003458;OBT:003428;['semi', 'soft', 'cheese'];['ripened', 'cheese'];General1;383
+384;BB-norm-21695078;MM;0.8791;Habitat;infant;OBT:003263 (infant);OBT:003184 (baby);OBT:003263;OBT:003184;['infant'];['baby'];General1;384
+385;BB-norm-F-14624315-000;MM;0.8799;Habitat;Swiss-type cheeses;OBT:003428 (ripened cheese);OBT:003381 (fermented cheese);OBT:003428;OBT:003381;['ripened', 'cheese'];['fermented', 'cheese'];General1;385
+386;BB-norm-18094887;MM;0.8915;Habitat;horse;OBT:003320 (horse);OBT:003295 (mammalian livestock);OBT:003320;OBT:003295;['horse'];['mammalian', 'livestock'];General1;386
+387;BB-norm-18094887;MM;0.8915;Habitat;horse;OBT:003320 (horse);OBT:003295 (mammalian livestock);OBT:003320;OBT:003295;['horse'];['mammalian', 'livestock'];General1;387
+388;BB-norm-10496597;TP;1.0;Habitat;gastric;OBT:001792 (stomach);OBT:001792 (stomach);OBT:001792;OBT:001792;['stomach'];['stomach'];Correct;388
+389;BB-norm-10496597;TP;1.0;Habitat;gastric;OBT:001792 (stomach);OBT:001792 (stomach);OBT:001792;OBT:001792;['stomach'];['stomach'];Correct;389
+390;BB-norm-10496597;TP;1.0;Habitat;gastric;OBT:001792 (stomach);OBT:001792 (stomach);OBT:001792;OBT:001792;['stomach'];['stomach'];Correct;390
+391;BB-norm-10496597;MM;1.0;Habitat;patients with high-grade primary gastric lymphoma;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;391
+392;BB-norm-10496597;TP;1.0;Habitat;gastric;OBT:001792 (stomach);OBT:001792 (stomach);OBT:001792;OBT:001792;['stomach'];['stomach'];Correct;392
+393;BB-norm-10496597;MM;1.0;Habitat;CD3;OBT:001623 (lymphocyte);OBT:001623 (lymphocyte);OBT:001623;OBT:001623;['lymphocyte'];['lymphocyte'];Correct;393
+394;BB-norm-10496597;MM;1.0;Habitat;patients with chronic active gastritis;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;394
+395;BB-norm-10496597;MM;1.0;Habitat;B and T cells;OBT:001623 (lymphocyte);OBT:001623 (lymphocyte);OBT:001623;OBT:001623;['lymphocyte'];['lymphocyte'];Correct;395
+396;BB-norm-10496597;MM;1.0;Habitat;T cells;OBT:001623 (lymphocyte);OBT:001623 (lymphocyte);OBT:001623;OBT:001623;['lymphocyte'];['lymphocyte'];Correct;396
+397;BB-norm-10496597;TP;1.0;Habitat;Lymphoepithelial lesions;OBT:000332 (lesion);OBT:000332 (lesion);OBT:000332;OBT:000332;['lesion'];['lesion'];Correct;397
+398;BB-norm-10496597;TP;1.0;Habitat;gastric;OBT:001792 (stomach);OBT:001792 (stomach);OBT:001792;OBT:001792;['stomach'];['stomach'];Correct;398
+399;BB-norm-10496597;MM;1.0;Habitat;CD3;OBT:001623 (lymphocyte);OBT:001623 (lymphocyte);OBT:001623;OBT:001623;['lymphocyte'];['lymphocyte'];Correct;399
+400;BB-norm-10496597;TP;1.0;Habitat;gastric;OBT:001792 (stomach);OBT:001792 (stomach);OBT:001792;OBT:001792;['stomach'];['stomach'];Correct;400
+401;BB-norm-11989773;MM;1.0;Habitat;food;OBT:000094 (food for human);OBT:000094 (food for human);OBT:000094;OBT:000094;['food', 'for', 'human'];['food', 'for', 'human'];Correct;401
+402;BB-norm-11989773;MM;1.0;Habitat;food;OBT:000094 (food for human);OBT:000094 (food for human);OBT:000094;OBT:000094;['food', 'for', 'human'];['food', 'for', 'human'];Correct;402
+403;BB-norm-11989773;MM;1.0;Habitat;food;OBT:000094 (food for human);OBT:000094 (food for human);OBT:000094;OBT:000094;['food', 'for', 'human'];['food', 'for', 'human'];Correct;403
+404;BB-norm-12109661;TP;1.0;Habitat;gastric;OBT:001792 (stomach);OBT:001792 (stomach);OBT:001792;OBT:001792;['stomach'];['stomach'];Correct;404
+405;BB-norm-12109661;TP;1.0;Habitat;gastric;OBT:001792 (stomach);OBT:001792 (stomach);OBT:001792;OBT:001792;['stomach'];['stomach'];Correct;405
+406;BB-norm-12109661;TP;1.0;Habitat;gastric;OBT:001792 (stomach);OBT:001792 (stomach);OBT:001792;OBT:001792;['stomach'];['stomach'];Correct;406
+407;BB-norm-12109661;TP;1.0;Habitat;gastric;OBT:001792 (stomach);OBT:001792 (stomach);OBT:001792;OBT:001792;['stomach'];['stomach'];Correct;407
+408;BB-norm-12109661;MM;1.0;Habitat;children;OBT:003188 (child);OBT:003188 (child);OBT:003188;OBT:003188;['child'];['child'];Correct;408
+409;BB-norm-12109661;TP;1.0;Habitat;gastric;OBT:001792 (stomach);OBT:001792 (stomach);OBT:001792;OBT:001792;['stomach'];['stomach'];Correct;409
+410;BB-norm-12109661;TP;1.0;Habitat;gastric;OBT:001792 (stomach);OBT:001792 (stomach);OBT:001792;OBT:001792;['stomach'];['stomach'];Correct;410
+411;BB-norm-12109661;TP;1.0;Habitat;gastric;OBT:001792 (stomach);OBT:001792 (stomach);OBT:001792;OBT:001792;['stomach'];['stomach'];Correct;411
+412;BB-norm-12109661;MM;1.0;Habitat;patients with chronic gastritis;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;412
+413;BB-norm-12109661;MM;1.0;Habitat;patients with chronic gastritis and gastric cancer;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;413
+414;BB-norm-12109661;TP;1.0;Habitat;gastric;OBT:001792 (stomach);OBT:001792 (stomach);OBT:001792;OBT:001792;['stomach'];['stomach'];Correct;414
+415;BB-norm-12109661;TP;1.0;Habitat;gastric;OBT:001792 (stomach);OBT:001792 (stomach);OBT:001792;OBT:001792;['stomach'];['stomach'];Correct;415
+416;BB-norm-12109661;TP;1.0;Habitat;gastric;OBT:001792 (stomach);OBT:001792 (stomach);OBT:001792;OBT:001792;['stomach'];['stomach'];Correct;416
+417;BB-norm-12109661;TP;1.0;Habitat;gastric;OBT:001792 (stomach);OBT:001792 (stomach);OBT:001792;OBT:001792;['stomach'];['stomach'];Correct;417
+418;BB-norm-12109661;TP;1.0;Habitat;gastric;OBT:001792 (stomach);OBT:001792 (stomach);OBT:001792;OBT:001792;['stomach'];['stomach'];Correct;418
+419;BB-norm-1214327;MM;1.0;Habitat;clinical;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;419
+420;BB-norm-1214327;MM;1.0;Habitat;clinical;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;420
+421;BB-norm-1356998;TP;1.0;Habitat;Human;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;421
+422;BB-norm-1356998;MM;1.0;Habitat;tick;OBT:001821 (tick);OBT:001821 (tick);OBT:001821;OBT:001821;['tick'];['tick'];Correct;422
+423;BB-norm-1356998;MM;1.0;Habitat;ticks;OBT:001821 (tick);OBT:001821 (tick);OBT:001821;OBT:001821;['tick'];['tick'];Correct;423
+424;BB-norm-1356998;TP;1.0;Habitat;humans;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;424
+425;BB-norm-1356998;MM;1.0;Habitat;ticks;OBT:001821 (tick);OBT:001821 (tick);OBT:001821;OBT:001821;['tick'];['tick'];Correct;425
+426;BB-norm-15293611;MM;1.0;Habitat;adult;OBT:003245 (adult human);OBT:003245 (adult human);OBT:003245;OBT:003245;['adult', 'human'];['adult', 'human'];Correct;426
+427;BB-norm-15293611;MM;1.0;Habitat;productive patients;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;427
+428;BB-norm-15293611;MM;1.0;Habitat;adult;OBT:003245 (adult human);OBT:003245 (adult human);OBT:003245;OBT:003245;['adult', 'human'];['adult', 'human'];Correct;428
+429;BB-norm-15293611;MM;1.0;Habitat;patients;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;429
+430;BB-norm-15293611;MM;1.0;Habitat;patients;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;430
+431;BB-norm-15293611;MM;1.0;Habitat;patients;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;431
+432;BB-norm-15293611;MM;1.0;Habitat;patient;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;432
+433;BB-norm-15293611;MM;1.0;Habitat;patients;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;433
+434;BB-norm-15293611;MM;1.0;Habitat;patients;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;434
+435;BB-norm-15293611;MM;1.0;Habitat;patients;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;435
+436;BB-norm-15293611;MM;1.0;Habitat;patients;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;436
+437;BB-norm-15618837;MM;1.0;Habitat;dyspeptic patients;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;437
+438;BB-norm-15618837;MM;1.0;Habitat;patients with chronic dyspepsia;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;438
+439;BB-norm-15618837;TP;1.0;Habitat;Gastric;OBT:001792 (stomach);OBT:001792 (stomach);OBT:001792;OBT:001792;['stomach'];['stomach'];Correct;439
+440;BB-norm-15618837;MM;1.0;Habitat;dyspeptic patients;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;440
+441;BB-norm-16273411;TP;1.0;Habitat;neonatal;OBT:003453 (newborn infant);OBT:003453 (newborn infant);OBT:003453;OBT:003453;['newborn', 'infant'];['newborn', 'infant'];Correct;441
+442;BB-norm-16273411;TP;1.0;Habitat;humans;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;442
+443;BB-norm-16458564;MM;1.0;Habitat;children;OBT:003188 (child);OBT:003188 (child);OBT:003188;OBT:003188;['child'];['child'];Correct;443
+444;BB-norm-16458564;TP;1.0;Habitat;stools;OBT:001102 (feces);OBT:001102 (feces);OBT:001102;OBT:001102;['feces'];['feces'];Correct;444
+445;BB-norm-16458564;MM;1.0;Habitat;children;OBT:003188 (child);OBT:003188 (child);OBT:003188;OBT:003188;['child'];['child'];Correct;445
+446;BB-norm-16458564;MM;1.0;Habitat;children;OBT:003188 (child);OBT:003188 (child);OBT:003188;OBT:003188;['child'];['child'];Correct;446
+447;BB-norm-16514151;TP;1.0;Habitat;rich medium;OBT:000007 (experimental medium);OBT:000007 (experimental medium);OBT:000007;OBT:000007;['experimental', 'medium'];['experimental', 'medium'];Correct;447
+448;BB-norm-18094887;TP;1.0;Habitat;humans;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;448
+449;BB-norm-18094887;MM;1.0;Habitat;ticks;OBT:001821 (tick);OBT:001821 (tick);OBT:001821;OBT:001821;['tick'];['tick'];Correct;449
+450;BB-norm-18094887;MM;1.0;Habitat;tick;OBT:001821 (tick);OBT:001821 (tick);OBT:001821;OBT:001821;['tick'];['tick'];Correct;450
+451;BB-norm-18094887;MM;1.0;Habitat;ticks;OBT:001821 (tick);OBT:001821 (tick);OBT:001821;OBT:001821;['tick'];['tick'];Correct;451
+452;BB-norm-18094887;TP;1.0;Habitat;animal;OBT:000193 (animal);OBT:000193 (animal);OBT:000193;OBT:000193;['animal'];['animal'];Correct;452
+453;BB-norm-18094887;TP;1.0;Habitat;human;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;453
+454;BB-norm-18094887;TP;1.0;Habitat;animal;OBT:000193 (animal);OBT:000193 (animal);OBT:000193;OBT:000193;['animal'];['animal'];Correct;454
+455;BB-norm-18094887;TP;1.0;Habitat;human;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;455
+456;BB-norm-18094887;TP;1.0;Habitat;human;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;456
+457;BB-norm-18094887;TP;1.0;Habitat;humans;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;457
+458;BB-norm-18694716;TP;1.0;Habitat;13C-labeled cell;OBT:000061 (cell);OBT:000061 (cell);OBT:000061;OBT:000061;['cell'];['cell'];Correct;458
+459;BB-norm-18789156;TP;1.0;Habitat;human;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;459
+460;BB-norm-18789156;MM;1.0;Habitat;immune cells;OBT:000320 (immune cell);OBT:000320 (immune cell);OBT:000320;OBT:000320;['immune', 'cell'];['immune', 'cell'];Correct;460
+461;BB-norm-18789156;TP;1.0;Habitat;cell;OBT:000061 (cell);OBT:000061 (cell);OBT:000061;OBT:000061;['cell'];['cell'];Correct;461
+462;BB-norm-18789156;TP;1.0;Habitat;human;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;462
+463;BB-norm-18789156;TP;1.0;Habitat;murine;OBT:002530 (murine);OBT:002530 (murine);OBT:002530;OBT:002530;['murine'];['murine'];Correct;463
+464;BB-norm-18789156;TP;1.0;Habitat;cell;OBT:000061 (cell);OBT:000061 (cell);OBT:000061;OBT:000061;['cell'];['cell'];Correct;464
+465;BB-norm-18789156;TP;1.0;Habitat;human;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;465
+466;BB-norm-19004249;TP;1.0;Habitat;human;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;466
+467;BB-norm-19339076;TP;1.0;Habitat;GM17 medium;OBT:000007 (experimental medium);OBT:000007 (experimental medium);OBT:000007;OBT:000007;['experimental', 'medium'];['experimental', 'medium'];Correct;467
+468;BB-norm-19339076;TP;1.0;Habitat;LM17 medium;OBT:000007 (experimental medium);OBT:000007 (experimental medium);OBT:000007;OBT:000007;['experimental', 'medium'];['experimental', 'medium'];Correct;468
+469;BB-norm-19339076;TP;1.0;Habitat;GM17 medium;OBT:000007 (experimental medium);OBT:000007 (experimental medium);OBT:000007;OBT:000007;['experimental', 'medium'];['experimental', 'medium'];Correct;469
+470;BB-norm-19339076;TP;1.0;Habitat;LM17 medium;OBT:000007 (experimental medium);OBT:000007 (experimental medium);OBT:000007;OBT:000007;['experimental', 'medium'];['experimental', 'medium'];Correct;470
+471;BB-norm-19339076;TP;1.0;Habitat;GM17 medium;OBT:000007 (experimental medium);OBT:000007 (experimental medium);OBT:000007;OBT:000007;['experimental', 'medium'];['experimental', 'medium'];Correct;471
+472;BB-norm-19339076;TP;1.0;Habitat;LM17 medium;OBT:000007 (experimental medium);OBT:000007 (experimental medium);OBT:000007;OBT:000007;['experimental', 'medium'];['experimental', 'medium'];Correct;472
+473;BB-norm-19552770;TP;1.0;Habitat;game bird;OBT:001446 (bird);OBT:001446 (bird);OBT:001446;OBT:001446;['bird'];['bird'];Correct;473
+474;BB-norm-19552770;TP;1.0;Habitat;human being;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;474
+475;BB-norm-19552770;TP;1.0;Habitat;animal species;OBT:000193 (animal);OBT:000193 (animal);OBT:000193;OBT:000193;['animal'];['animal'];Correct;475
+476;BB-norm-20174624;MM;1.0;Habitat;Neutrophils;OBT:003004 (neutrophil);OBT:003004 (neutrophil);OBT:003004;OBT:003004;['neutrophil'];['neutrophil'];Correct;476
+477;BB-norm-20174624;TP;1.0;Habitat;cell;OBT:000061 (cell);OBT:000061 (cell);OBT:000061;OBT:000061;['cell'];['cell'];Correct;477
+478;BB-norm-20174624;TP;1.0;Habitat;human;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;478
+479;BB-norm-20174624;MM;1.0;Habitat;neutrophils;OBT:003004 (neutrophil);OBT:003004 (neutrophil);OBT:003004;OBT:003004;['neutrophil'];['neutrophil'];Correct;479
+480;BB-norm-20174624;TP;1.0;Habitat;humans;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;480
+481;BB-norm-20174624;TP;1.0;Habitat;murine;OBT:002530 (murine);OBT:002530 (murine);OBT:002530;OBT:002530;['murine'];['murine'];Correct;481
+482;BB-norm-20174624;MM;1.0;Habitat;neutrophil;OBT:003004 (neutrophil);OBT:003004 (neutrophil);OBT:003004;OBT:003004;['neutrophil'];['neutrophil'];Correct;482
+483;BB-norm-20174624;TP;1.0;Habitat;human;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;483
+484;BB-norm-20174624;MM;1.0;Habitat;neutrophils;OBT:003004 (neutrophil);OBT:003004 (neutrophil);OBT:003004;OBT:003004;['neutrophil'];['neutrophil'];Correct;484
+485;BB-norm-20174624;TP;1.0;Habitat;human;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;485
+486;BB-norm-20174624;TP;1.0;Habitat;human;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;486
+487;BB-norm-20174624;TP;1.0;Habitat;human;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;487
+488;BB-norm-20174624;TP;1.0;Habitat;human;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;488
+489;BB-norm-20580604;MM;1.0;Habitat;intestinal;OBT:002810 (intestine);OBT:002810 (intestine);OBT:002810;OBT:002810;['intestine'];['intestine'];Correct;489
+490;BB-norm-20580604;MM;1.0;Habitat;intestinal;OBT:002810 (intestine);OBT:002810 (intestine);OBT:002810;OBT:002810;['intestine'];['intestine'];Correct;490
+491;BB-norm-20580604;TP;1.0;Habitat;stool;OBT:001102 (feces);OBT:001102 (feces);OBT:001102;OBT:001102;['feces'];['feces'];Correct;491
+492;BB-norm-20580604;TP;1.0;Habitat;stools;OBT:001102 (feces);OBT:001102 (feces);OBT:001102;OBT:001102;['feces'];['feces'];Correct;492
+493;BB-norm-20580604;TP;1.0;Habitat;stool;OBT:001102 (feces);OBT:001102 (feces);OBT:001102;OBT:001102;['feces'];['feces'];Correct;493
+494;BB-norm-20580604;TP;1.0;Habitat;stools;OBT:001102 (feces);OBT:001102 (feces);OBT:001102;OBT:001102;['feces'];['feces'];Correct;494
+495;BB-norm-20580604;TP;1.0;Habitat;stool;OBT:001102 (feces);OBT:001102 (feces);OBT:001102;OBT:001102;['feces'];['feces'];Correct;495
+496;BB-norm-21543877;TP;1.0;Habitat;human population;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;496
+497;BB-norm-21695078;TP;1.0;Habitat;respiratory;OBT:000407 (respiratory tract);OBT:000407 (respiratory tract);OBT:000407;OBT:000407;['respiratory', 'tract'];['respiratory', 'tract'];Correct;497
+498;BB-norm-21695078;MM;1.0;Habitat;neutrophils;OBT:003004 (neutrophil);OBT:003004 (neutrophil);OBT:003004;OBT:003004;['neutrophil'];['neutrophil'];Correct;498
+499;BB-norm-21695078;MM;1.0;Habitat;T-cells;OBT:001623 (lymphocyte);OBT:001623 (lymphocyte);OBT:001623;OBT:001623;['lymphocyte'];['lymphocyte'];Correct;499
+500;BB-norm-21894542;TP;1.0;Habitat;marine environments;OBT:000338 (marine environment);OBT:000338 (marine environment);OBT:000338;OBT:000338;['marine', 'environment'];['marine', 'environment'];Correct;500
+501;BB-norm-21894542;TP;1.0;Habitat;bacterial flora;OBT:000113 (microflora);OBT:000113 (microflora);OBT:000113;OBT:000113;['microflora'];['microflora'];Correct;501
+502;BB-norm-21894542;TP;1.0;Habitat;marine;OBT:000338 (marine environment);OBT:000338 (marine environment);OBT:000338;OBT:000338;['marine', 'environment'];['marine', 'environment'];Correct;502
+503;BB-norm-25114119;TP;1.0;Habitat;murine;OBT:002530 (murine);OBT:002530 (murine);OBT:002530;OBT:002530;['murine'];['murine'];Correct;503
+504;BB-norm-25114119;TP;1.0;Habitat;human;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;504
+505;BB-norm-47483;MM;1.0;Habitat;clinical;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;505
+506;BB-norm-5526468;TP;1.0;Habitat;human;OBT:002488 (human);OBT:002488 (human);OBT:002488;OBT:002488;['human'];['human'];Correct;506
+507;BB-norm-9521147;MM;1.0;Habitat;clinical;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;507
+508;BB-norm-9521147;MM;1.0;Habitat;clinical;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;508
+509;BB-norm-9521147;MM;1.0;Habitat;clinical;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;509
+510;BB-norm-9521147;TP;1.0;Habitat;soil;OBT:000427 (soil);OBT:000427 (soil);OBT:000427;OBT:000427;['soil'];['soil'];Correct;510
+511;BB-norm-9521147;TP;1.0;Habitat;soil;OBT:000427 (soil);OBT:000427 (soil);OBT:000427;OBT:000427;['soil'];['soil'];Correct;511
+512;BB-norm-9553794;TP;1.0;Habitat;microflora;OBT:000113 (microflora);OBT:000113 (microflora);OBT:000113;OBT:000113;['microflora'];['microflora'];Correct;512
+513;BB-norm-9553794;TP;1.0;Habitat;microflora;OBT:000113 (microflora);OBT:000113 (microflora);OBT:000113;OBT:000113;['microflora'];['microflora'];Correct;513
+514;BB-norm-9553794;TP;1.0;Habitat;LAB microflora;OBT:000113 (microflora);OBT:000113 (microflora);OBT:000113;OBT:000113;['microflora'];['microflora'];Correct;514
+515;BB-norm-9745160;MM;1.0;Habitat;patient;OBT:003220 (patient);OBT:003220 (patient);OBT:003220;OBT:003220;['patient'];['patient'];Correct;515
+516;BB-norm-F-14624315-000;MM;1.0;Habitat;surface-ripened cheeses;OBT:003428 (ripened cheese);OBT:003428 (ripened cheese);OBT:003428;OBT:003428;['ripened', 'cheese'];['ripened', 'cheese'];Correct;516
+517;BB-norm-F-14624315-007;MM;1.0;Habitat;dairy industry;OBT:001988 (dairy industry);OBT:001988 (dairy industry);OBT:001988;OBT:001988;['dairy', 'industry'];['dairy', 'industry'];Correct;517
+518;BB-norm-F-20167385-000;TP;1.0;Habitat;cheeses;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;518
+519;BB-norm-F-20167385-003;TP;1.0;Habitat;cheese;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;519
+520;BB-norm-F-20167385-004;TP;1.0;Habitat;cheese;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;520
+521;BB-norm-F-20167385-004;TP;1.0;Habitat;cheese;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;521
+522;BB-norm-F-20167385-004;TP;1.0;Habitat;cheese;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;522
+523;BB-norm-F-20167385-008;TP;1.0;Habitat;cheese;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;523
+524;BB-norm-F-20167385-009;TP;1.0;Habitat;smear cheeses;OBT:003494 (smear ripened cheese);OBT:003494 (smear ripened cheese);OBT:003494;OBT:003494;['smear', 'ripened', 'cheese'];['smear', 'ripened', 'cheese'];Correct;524
+525;BB-norm-F-20167385-010;TP;1.0;Habitat;cheese;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;525
+526;BB-norm-F-20167385-011;TP;1.0;Habitat;cheese;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;526
+527;BB-norm-F-20167385-013;TP;1.0;Habitat;cheese;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;527
+528;BB-norm-F-20167385-015;TP;1.0;Habitat;cheese;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;528
+529;BB-norm-F-25036636-000;TP;1.0;Habitat;community;OBT:000113 (microflora);OBT:000113 (microflora);OBT:000113;OBT:000113;['microflora'];['microflora'];Correct;529
+530;BB-norm-F-25036636-000;TP;1.0;Habitat;cheese;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;530
+531;BB-norm-F-25036636-000;MM;1.0;Habitat;food;OBT:000094 (food for human);OBT:000094 (food for human);OBT:000094;OBT:000094;['food', 'for', 'human'];['food', 'for', 'human'];Correct;531
+532;BB-norm-F-25036636-000;TP;1.0;Habitat;marine environments;OBT:000338 (marine environment);OBT:000338 (marine environment);OBT:000338;OBT:000338;['marine', 'environment'];['marine', 'environment'];Correct;532
+533;BB-norm-F-25036636-000;TP;1.0;Habitat;cheese;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;533
+534;BB-norm-F-25036636-002;TP;1.0;Habitat;marine;OBT:000338 (marine environment);OBT:000338 (marine environment);OBT:000338;OBT:000338;['marine', 'environment'];['marine', 'environment'];Correct;534
+535;BB-norm-F-25036636-002;TP;1.0;Habitat;cheese;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;535
+536;BB-norm-F-25036636-003;TP;1.0;Habitat;cheese;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;536
+537;BB-norm-F-25036636-003;TP;1.0;Habitat;cheeses;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;537
+538;BB-norm-F-25036636-003;TP;1.0;Habitat;cheeses;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;538
+539;BB-norm-F-25036636-003;MM;1.0;Habitat;polar seawater;OBT:003105 (marine water);OBT:003105 (marine water);OBT:003105;OBT:003105;['marine', 'water'];['marine', 'water'];Correct;539
+540;BB-norm-F-25036636-004;TP;1.0;Habitat;cheeses;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;540
+541;BB-norm-F-25036636-004;TP;1.0;Habitat;cheese;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;541
+542;BB-norm-F-25036636-005;TP;1.0;Habitat;cheese;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;542
+543;BB-norm-F-25036636-005;TP;1.0;Habitat;community;OBT:000113 (microflora);OBT:000113 (microflora);OBT:000113;OBT:000113;['microflora'];['microflora'];Correct;543
+544;BB-norm-F-25036636-005;TP;1.0;Habitat;community;OBT:000113 (microflora);OBT:000113 (microflora);OBT:000113;OBT:000113;['microflora'];['microflora'];Correct;544
+545;BB-norm-F-25036636-005;TP;1.0;Habitat;community;OBT:000113 (microflora);OBT:000113 (microflora);OBT:000113;OBT:000113;['microflora'];['microflora'];Correct;545
+546;BB-norm-F-25036636-005;TP;1.0;Habitat;mature cheeses;OBT:001480 (cheese);OBT:001480 (cheese);OBT:001480;OBT:001480;['cheese'];['cheese'];Correct;546
+547;BB-norm-18789156;MM;0.0161;Phenotype;human pathogenic;OBT:002806 (human pathogen);OBT:002488 (human);OBT:002806;OBT:002488;['human', 'pathogen'];['human'];Wrong type;547
+548;BB-norm-19004249;MM;0.0161;Phenotype;human pathogens;OBT:002806 (human pathogen);OBT:002488 (human);OBT:002806;OBT:002488;['human', 'pathogen'];['human'];Wrong type;548
+549;BB-norm-16514151;MM;0.0262;Phenotype;mer;OBT:002521 (metal resistant);OBT:003381 (fermented cheese);OBT:002521;OBT:003381;['metal', 'resistant'];['fermented', 'cheese'];Wrong type;549
+550;BB-norm-19339076;MM;0.0439;Phenotype;probiotic;OBT:000827 (probiotic);OBT:000633 (food for particular diet);OBT:000827;OBT:000633;['probiotic'];['food', 'for', 'particular', 'diet'];Wrong type;550
+551;BB-norm-25204345;MM;0.0439;Phenotype;probiotic;OBT:000827 (probiotic);OBT:000633 (food for particular diet);OBT:000827;OBT:000633;['probiotic'];['food', 'for', 'particular', 'diet'];Wrong type;551
+552;BB-norm-21695078;MM;0.0506;Phenotype;sexually transmitted pathogen;OBT:002669 (animal pathogen);OBT:000193 (animal);OBT:002669;OBT:000193;['animal', 'pathogen'];['animal'];Wrong type;552
+553;BB-norm-18789156;MM;0.0638;Phenotype;invasion of host tissues;OBT:002806 (human pathogen);OBT:000039 (animal part);OBT:002806;OBT:000039;['human', 'pathogen'];['animal', 'part'];Wrong type;553
+554;BB-norm-460951;MM;0.0638;Phenotype;causing non-pulmonary disease;OBT:002806 (human pathogen);OBT:000039 (animal part);OBT:002806;OBT:000039;['human', 'pathogen'];['animal', 'part'];Wrong type;554
+555;BB-norm-20174624;MM;0.0691;Phenotype;wild-type;OBT:000169 (wild-type);OBT:001126 (garden vegetable and primary derivative thereof);OBT:000169;OBT:001126;['wild-type'];['garden', 'vegetable', 'and', 'primary', 'derivative', 'thereof'];Wrong type;555
+556;BB-norm-8559802;MM;0.0783;Phenotype;wild strain;OBT:000169 (wild-type);OBT:000489 (animal product and primary derivative thereof);OBT:000169;OBT:000489;['wild-type'];['animal', 'product', 'and', 'primary', 'derivative', 'thereof'];Wrong type;556
+557;BB-norm-14633026;MM;0.0955;Phenotype;mosquitocidal;OBT:002809 (insect pathogen);OBT:000013 (natural environment habitat);OBT:002809;OBT:000013;['insect', 'pathogen'];['natural', 'environment', 'habitat'];Wrong type;557
+558;BB-norm-14633026;MM;0.0955;Phenotype;mosquitocidal;OBT:002809 (insect pathogen);OBT:000013 (natural environment habitat);OBT:002809;OBT:000013;['insect', 'pathogen'];['natural', 'environment', 'habitat'];Wrong type;558
+559;BB-norm-14633026;MM;0.0955;Phenotype;mosquitocidal;OBT:002809 (insect pathogen);OBT:000013 (natural environment habitat);OBT:002809;OBT:000013;['insect', 'pathogen'];['natural', 'environment', 'habitat'];Wrong type;559
+560;BB-norm-14633026;MM;0.0955;Phenotype;mosquitocidal;OBT:002809 (insect pathogen);OBT:000013 (natural environment habitat);OBT:002809;OBT:000013;['insect', 'pathogen'];['natural', 'environment', 'habitat'];Wrong type;560
+561;BB-norm-14633026;MM;0.0955;Phenotype;mosquitocidal;OBT:002809 (insect pathogen);OBT:000013 (natural environment habitat);OBT:002809;OBT:000013;['insect', 'pathogen'];['natural', 'environment', 'habitat'];Wrong type;561
+562;BB-norm-F-14624315-002;MM;0.1307;Phenotype;able to produce considerable amounts of 3-methylbutanal and  3-methylbutanol;OBT:000019 (phenotype wrt metabolic activity);OBT:000240 (commodity and primary derivative thereof);OBT:000019;OBT:000240;['phenotype', 'wrt', 'metabolic', 'activity'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong type;562
+563;BB-norm-F-14624315-002;MM;0.1307;Phenotype;able to produce considerable amounts of 3-methylbutanal;OBT:000019 (phenotype wrt metabolic activity);OBT:000240 (commodity and primary derivative thereof);OBT:000019;OBT:000240;['phenotype', 'wrt', 'metabolic', 'activity'];['commodity', 'and', 'primary', 'derivative', 'thereof'];Wrong type;563
+564;BB-norm-F-25036636-003;MM;0.1416;Phenotype;cold-adapted;OBT:002982 (extreme cold resistant);OBT:000001 (microbial habitat);OBT:002982;OBT:000001;['extreme', 'cold', 'resistant'];['microbial', 'habitat'];Wrong type;564
+565;BB-norm-F-25036636-004;MM;0.1416;Phenotype;cold-adapted;OBT:002975 (cold resistant);OBT:000001 (microbial habitat);OBT:002975;OBT:000001;['cold', 'resistant'];['microbial', 'habitat'];Wrong type;565
+566;BB-norm-18789156;MM;0.1515;Phenotype;causative agent of tularemia;OBT:002806 (human pathogen);OBT:000001 (microbial habitat);OBT:002806;OBT:000001;['human', 'pathogen'];['microbial', 'habitat'];Wrong type;566
+567;BB-norm-460951;MM;0.1515;Phenotype;complicity in disease;OBT:002806 (human pathogen);OBT:000001 (microbial habitat);OBT:002806;OBT:000001;['human', 'pathogen'];['microbial', 'habitat'];Wrong type;567
+568;BB-norm-F-20167385-001;MM;0.1759;Phenotype;salt-tolerant;OBT:002711 (halotolerant);OBT:000154 (stress tolerant);OBT:002711;OBT:000154;['halotolerant'];['stress', 'tolerant'];Wrong class;568
+569;BB-norm-351567;MM;0.2313;Phenotype;am5;OBT:000118 (mutant);OBT:000001 (microbial habitat);OBT:000118;OBT:000001;['mutant'];['microbial', 'habitat'];Wrong type;569
+570;BB-norm-14633026;MM;0.2425;Phenotype;mosquitocidal activity;OBT:002809 (insect pathogen);OBT:000019 (phenotype wrt metabolic activity);OBT:002809;OBT:000019;['insect', 'pathogen'];['phenotype', 'wrt', 'metabolic', 'activity'];Wrong class;570
+571;BB-norm-14633026;MM;0.2425;Phenotype;larvicidal activity;OBT:002809 (insect pathogen);OBT:000019 (phenotype wrt metabolic activity);OBT:002809;OBT:000019;['insect', 'pathogen'];['phenotype', 'wrt', 'metabolic', 'activity'];Wrong class;571
+572;BB-norm-25114119;MM;0.29;Phenotype;obligate intracellular;OBT:000771 (obligate parasite);OBT:000025 (physiological phenotype);OBT:000771;OBT:000025;['obligate', 'parasite'];['physiological', 'phenotype'];Wrong class;572
+573;BB-norm-15618837;MM;0.3808;Phenotype;widespread bacterial resistance due to unrestricted antibiotic use;OBT:002674 (antibiotic resistant);OBT:000002 (microbial phenotype);OBT:002674;OBT:000002;['antibiotic', 'resistant'];['microbial', 'phenotype'];Too General;573
+574;BB-norm-16458564;MM;0.3845;Phenotype;diarrheagenic;OBT:002806 (human pathogen);OBT:000002 (microbial phenotype);OBT:002806;OBT:000002;['human', 'pathogen'];['microbial', 'phenotype'];Too General;574
+575;BB-norm-16458564;MM;0.3845;Phenotype;enterotoxigenic;OBT:002806 (human pathogen);OBT:000002 (microbial phenotype);OBT:002806;OBT:000002;['human', 'pathogen'];['microbial', 'phenotype'];Too General;575
+576;BB-norm-16458564;MM;0.3845;Phenotype;diarrheagenic;OBT:002806 (human pathogen);OBT:000002 (microbial phenotype);OBT:002806;OBT:000002;['human', 'pathogen'];['microbial', 'phenotype'];Too General;576
+577;BB-norm-16458564;MM;0.3845;Phenotype;enterotoxigenic;OBT:002806 (human pathogen);OBT:000002 (microbial phenotype);OBT:002806;OBT:000002;['human', 'pathogen'];['microbial', 'phenotype'];Too General;577
+578;BB-norm-16458564;MM;0.3845;Phenotype;Diarrheagenic;OBT:002806 (human pathogen);OBT:000002 (microbial phenotype);OBT:002806;OBT:000002;['human', 'pathogen'];['microbial', 'phenotype'];Too General;578
+579;BB-norm-16458564;MM;0.3845;Phenotype;diarrheagenic;OBT:002806 (human pathogen);OBT:000002 (microbial phenotype);OBT:002806;OBT:000002;['human', 'pathogen'];['microbial', 'phenotype'];Too General;579
+580;BB-norm-16458564;MM;0.3845;Phenotype;enterotoxigenic;OBT:002806 (human pathogen);OBT:000002 (microbial phenotype);OBT:002806;OBT:000002;['human', 'pathogen'];['microbial', 'phenotype'];Too General;580
+581;BB-norm-21894542;MM;0.3935;Phenotype;halotolerent;OBT:002711 (halotolerant);OBT:000002 (microbial phenotype);OBT:002711;OBT:000002;['halotolerant'];['microbial', 'phenotype'];Too General;581
+582;BB-norm-9521147;MM;0.3935;Phenotype;nonvirulent;OBT:002668 (animal commensal);OBT:000002 (microbial phenotype);OBT:002668;OBT:000002;['animal', 'commensal'];['microbial', 'phenotype'];Too General;582
+583;BB-norm-16514151;MM;0.5017;Phenotype;mercury resistance;OBT:002521 (metal resistant);OBT:002674 (antibiotic resistant);OBT:002521;OBT:002674;['metal', 'resistant'];['antibiotic', 'resistant'];Wrong class;583
+584;BB-norm-18789156;MM;0.5872;Phenotype;binding;OBT:000029 (adherent);OBT:000002 (microbial phenotype);OBT:000029;OBT:000002;['adherent'];['microbial', 'phenotype'];General2;584
+585;BB-norm-18789156;MM;0.5872;Phenotype;binding;OBT:000029 (adherent);OBT:000002 (microbial phenotype);OBT:000029;OBT:000002;['adherent'];['microbial', 'phenotype'];General2;585
+586;BB-norm-18789156;MM;0.5872;Phenotype;binding;OBT:000029 (adherent);OBT:000002 (microbial phenotype);OBT:000029;OBT:000002;['adherent'];['microbial', 'phenotype'];General2;586
+587;BB-norm-19339076;MM;0.6226;Phenotype;Bile resistance;OBT:000152 (stress resistant);OBT:002674 (antibiotic resistant);OBT:000152;OBT:002674;['stress', 'resistant'];['antibiotic', 'resistant'];Wrong class;587
+588;BB-norm-19339076;MM;0.6226;Phenotype;Bile resistance;OBT:000152 (stress resistant);OBT:002674 (antibiotic resistant);OBT:000152;OBT:002674;['stress', 'resistant'];['antibiotic', 'resistant'];Wrong class;588
+589;BB-norm-19339076;MM;0.6226;Phenotype;bile resistance;OBT:000152 (stress resistant);OBT:002674 (antibiotic resistant);OBT:000152;OBT:002674;['stress', 'resistant'];['antibiotic', 'resistant'];Wrong class;589
+590;BB-norm-19339076;MM;0.6226;Phenotype;bile resistance;OBT:000152 (stress resistant);OBT:002674 (antibiotic resistant);OBT:000152;OBT:002674;['stress', 'resistant'];['antibiotic', 'resistant'];Wrong class;590
+591;BB-norm-19339076;MM;0.6226;Phenotype;bile resistance;OBT:000152 (stress resistant);OBT:002674 (antibiotic resistant);OBT:000152;OBT:002674;['stress', 'resistant'];['antibiotic', 'resistant'];Wrong class;591
+592;BB-norm-19339076;MM;0.6226;Phenotype;bile resistance;OBT:000152 (stress resistant);OBT:002674 (antibiotic resistant);OBT:000152;OBT:002674;['stress', 'resistant'];['antibiotic', 'resistant'];Wrong class;592
+593;BB-norm-19339076;MM;0.6226;Phenotype;bile resistance;OBT:000152 (stress resistant);OBT:002674 (antibiotic resistant);OBT:000152;OBT:002674;['stress', 'resistant'];['antibiotic', 'resistant'];Wrong class;593
+594;BB-norm-19339076;MM;0.6226;Phenotype;bile resistance;OBT:000152 (stress resistant);OBT:002674 (antibiotic resistant);OBT:000152;OBT:002674;['stress', 'resistant'];['antibiotic', 'resistant'];Wrong class;594
+595;BB-norm-19339076;MM;0.6226;Phenotype;bile-resistant;OBT:000152 (stress resistant);OBT:002674 (antibiotic resistant);OBT:000152;OBT:002674;['stress', 'resistant'];['antibiotic', 'resistant'];Wrong class;595
+596;BB-norm-19339076;MM;0.6226;Phenotype;bile-resistant;OBT:000152 (stress resistant);OBT:002674 (antibiotic resistant);OBT:000152;OBT:002674;['stress', 'resistant'];['antibiotic', 'resistant'];Wrong class;596
+597;BB-norm-19339076;MM;0.6226;Phenotype;bile resistances;OBT:000152 (stress resistant);OBT:002674 (antibiotic resistant);OBT:000152;OBT:002674;['stress', 'resistant'];['antibiotic', 'resistant'];Wrong class;597
+598;BB-norm-19339076;MM;0.6226;Phenotype;resistant to bile;OBT:000152 (stress resistant);OBT:002674 (antibiotic resistant);OBT:000152;OBT:002674;['stress', 'resistant'];['antibiotic', 'resistant'];Wrong class;598
+599;BB-norm-19339076;MM;0.6226;Phenotype;resistant;OBT:000152 (stress resistant);OBT:002674 (antibiotic resistant);OBT:000152;OBT:002674;['stress', 'resistant'];['antibiotic', 'resistant'];Wrong class;599
+600;BB-norm-19339076;MM;0.6226;Phenotype;bile-resistant;OBT:000152 (stress resistant);OBT:002674 (antibiotic resistant);OBT:000152;OBT:002674;['stress', 'resistant'];['antibiotic', 'resistant'];Wrong class;600
+601;BB-norm-19339076;MM;0.6226;Phenotype;bile resistance;OBT:000152 (stress resistant);OBT:002674 (antibiotic resistant);OBT:000152;OBT:002674;['stress', 'resistant'];['antibiotic', 'resistant'];Wrong class;601
+602;BB-norm-16458564;MM;0.6342;Phenotype;pathogens;OBT:002806 (human pathogen);OBT:000375 (pathogen);OBT:002806;OBT:000375;['human', 'pathogen'];['pathogen'];General2;602
+603;BB-norm-16458564;MM;0.6342;Phenotype;pathogen;OBT:002806 (human pathogen);OBT:000375 (pathogen);OBT:002806;OBT:000375;['human', 'pathogen'];['pathogen'];General2;603
+604;BB-norm-18789156;MM;0.6342;Phenotype;human bacterial pathogens;OBT:002806 (human pathogen);OBT:000375 (pathogen);OBT:002806;OBT:000375;['human', 'pathogen'];['pathogen'];General2;604
+605;BB-norm-20174624;MM;0.6342;Phenotype;bacterial pathogens;OBT:002806 (human pathogen);OBT:000375 (pathogen);OBT:002806;OBT:000375;['human', 'pathogen'];['pathogen'];General2;605
+606;BB-norm-20174624;MM;0.6342;Phenotype;virulence;OBT:002806 (human pathogen);OBT:000375 (pathogen);OBT:002806;OBT:000375;['human', 'pathogen'];['pathogen'];General2;606
+607;BB-norm-20174624;MM;0.6342;Phenotype;virulence;OBT:002806 (human pathogen);OBT:000375 (pathogen);OBT:002806;OBT:000375;['human', 'pathogen'];['pathogen'];General2;607
+608;BB-norm-20174624;MM;0.6342;Phenotype;virulence;OBT:002806 (human pathogen);OBT:000375 (pathogen);OBT:002806;OBT:000375;['human', 'pathogen'];['pathogen'];General2;608
+609;BB-norm-20174624;MM;0.6342;Phenotype;virulence;OBT:002806 (human pathogen);OBT:000375 (pathogen);OBT:002806;OBT:000375;['human', 'pathogen'];['pathogen'];General2;609
+610;BB-norm-20174624;MM;0.6342;Phenotype;virulence;OBT:002806 (human pathogen);OBT:000375 (pathogen);OBT:002806;OBT:000375;['human', 'pathogen'];['pathogen'];General2;610
+611;BB-norm-9521147;MM;0.6342;Phenotype;virulent;OBT:002806 (human pathogen);OBT:000375 (pathogen);OBT:002806;OBT:000375;['human', 'pathogen'];['pathogen'];General2;611
+612;BB-norm-15293611;MM;0.6405;Phenotype;antibiotic sensitivity;OBT:002675 (antibiotic sensitive);OBT:000381 (phenotype wrt drug impact);OBT:002675;OBT:000381;['antibiotic', 'sensitive'];['phenotype', 'wrt', 'drug', 'impact'];General2;612
+613;BB-norm-16458564;MM;0.6405;Phenotype;antibiotic susceptibility;OBT:002675 (antibiotic sensitive);OBT:000381 (phenotype wrt drug impact);OBT:002675;OBT:000381;['antibiotic', 'sensitive'];['phenotype', 'wrt', 'drug', 'impact'];General2;613
+614;BB-norm-14633026;MM;0.6412;Phenotype;haemolytic activity;OBT:000304 (hemolytic);OBT:000019 (phenotype wrt metabolic activity);OBT:000304;OBT:000019;['hemolytic'];['phenotype', 'wrt', 'metabolic', 'activity'];General2;614
+615;BB-norm-19552770;MM;0.6412;Phenotype;thermotolerant;OBT:000453 (thermotolerant);OBT:000025 (physiological phenotype);OBT:000453;OBT:000025;['thermotolerant'];['physiological', 'phenotype'];General2;615
+616;BB-norm-19552770;MM;0.6412;Phenotype;thermotolerant;OBT:000453 (thermotolerant);OBT:000025 (physiological phenotype);OBT:000453;OBT:000025;['thermotolerant'];['physiological', 'phenotype'];General2;616
+617;BB-norm-19552770;MM;0.6412;Phenotype;thermotolerant;OBT:000453 (thermotolerant);OBT:000025 (physiological phenotype);OBT:000453;OBT:000025;['thermotolerant'];['physiological', 'phenotype'];General2;617
+618;BB-norm-19552770;MM;0.6412;Phenotype;thermotolerant;OBT:000453 (thermotolerant);OBT:000025 (physiological phenotype);OBT:000453;OBT:000025;['thermotolerant'];['physiological', 'phenotype'];General2;618
+619;BB-norm-19552770;MM;0.6412;Phenotype;Thermotolerant;OBT:000453 (thermotolerant);OBT:000025 (physiological phenotype);OBT:000453;OBT:000025;['thermotolerant'];['physiological', 'phenotype'];General2;619
+620;BB-norm-F-14624315-006;MM;0.6412;Phenotype;presence or  absence of decarboxylase activity;OBT:000252 (decarboxylase positive);OBT:000019 (phenotype wrt metabolic activity);OBT:000252;OBT:000019;['decarboxylase', 'positive'];['phenotype', 'wrt', 'metabolic', 'activity'];General2;620
+621;BB-norm-F-14624315-006;MM;0.6412;Phenotype;absence of decarboxylase activity;OBT:000251 (decarboxylase negative);OBT:000019 (phenotype wrt metabolic activity);OBT:000251;OBT:000019;['decarboxylase', 'negative'];['phenotype', 'wrt', 'metabolic', 'activity'];General2;621
+622;BB-norm-F-14624315-006;MM;0.6412;Phenotype;decarboxylase-positive;OBT:000252 (decarboxylase positive);OBT:000019 (phenotype wrt metabolic activity);OBT:000252;OBT:000019;['decarboxylase', 'positive'];['phenotype', 'wrt', 'metabolic', 'activity'];General2;622
+623;BB-norm-F-14624315-006;MM;0.6412;Phenotype;decarboxylase-positive and B697 negative;OBT:000251 (decarboxylase negative);OBT:000019 (phenotype wrt metabolic activity);OBT:000251;OBT:000019;['decarboxylase', 'negative'];['phenotype', 'wrt', 'metabolic', 'activity'];General2;623
+624;BB-norm-F-20167385-001;MM;0.6412;Phenotype;coagulase-negative;OBT:000235 (coagulase negative);OBT:000019 (phenotype wrt metabolic activity);OBT:000235;OBT:000019;['coagulase', 'negative'];['phenotype', 'wrt', 'metabolic', 'activity'];General2;624
+625;BB-norm-F-20167385-011;MM;0.6412;Phenotype;microaerophilic;OBT:000347 (microaerophile);OBT:000025 (physiological phenotype);OBT:000347;OBT:000025;['microaerophile'];['physiological', 'phenotype'];General2;625
+626;BB-norm-F-20167385-011;MM;0.6693;Phenotype;rod;OBT:000848 (rod-shaped);OBT:000116 (microscopic morphological phenotype);OBT:000848;OBT:000116;['rod-shaped'];['microscopic', 'morphological', 'phenotype'];General2;626
+627;BB-norm-F-25036636-000;MM;0.7164;Phenotype;halotolerant;OBT:002711 (halotolerant);OBT:000382 (phenotype wrt habitat salinity);OBT:002711;OBT:000382;['halotolerant'];['phenotype', 'wrt', 'habitat', 'salinity'];General1;627
+628;BB-norm-21894542;MM;0.7314;Phenotype;production and utilization of native siderophores;OBT:000019 (phenotype wrt metabolic activity);OBT:000002 (microbial phenotype);OBT:000019;OBT:000002;['phenotype', 'wrt', 'metabolic', 'activity'];['microbial', 'phenotype'];General1;628
+629;BB-norm-21894542;MM;0.7314;Phenotype;production and utilization of native siderophores;OBT:000019 (phenotype wrt metabolic activity);OBT:000002 (microbial phenotype);OBT:000019;OBT:000002;['phenotype', 'wrt', 'metabolic', 'activity'];['microbial', 'phenotype'];General1;629
+630;BB-norm-25204345;MM;0.7467;Phenotype;drug resistance;OBT:000598 (drug resistant);OBT:002674 (antibiotic resistant);OBT:000598;OBT:002674;['drug', 'resistant'];['antibiotic', 'resistant'];Precise;630
+631;BB-norm-8559802;MM;0.7467;Phenotype;drug-resistant;OBT:000598 (drug resistant);OBT:002674 (antibiotic resistant);OBT:000598;OBT:002674;['drug', 'resistant'];['antibiotic', 'resistant'];Precise;631
+632;BB-norm-9745160;MM;0.7467;Phenotype;drug resistance;OBT:000598 (drug resistant);OBT:002674 (antibiotic resistant);OBT:000598;OBT:002674;['drug', 'resistant'];['antibiotic', 'resistant'];Precise;632
+633;BB-norm-15293611;MM;0.7737;Phenotype;colonial morphology;OBT:000064 (colony morphology phenotype);OBT:000020 (phenotype wrt morphology);OBT:000064;OBT:000020;['colony', 'morphology', 'phenotype'];['phenotype', 'wrt', 'morphology'];General1;633
+634;BB-norm-21894542;MM;0.7737;Phenotype;motile;OBT:000117 (motile);OBT:000021 (phenotype wrt motility);OBT:000117;OBT:000021;['motile'];['phenotype', 'wrt', 'motility'];General1;634
+635;BB-norm-F-14624315-004;MM;0.7737;Phenotype;decarboxylase activity;OBT:000068 (decarboxylase activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000068;OBT:000019;['decarboxylase', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];General1;635
+636;BB-norm-F-14624315-004;MM;0.7948;Phenotype;anaerobic;OBT:000189 (anaerobe);OBT:000129 (phenotype wrt habitat oxygen);OBT:000189;OBT:000129;['anaerobe'];['phenotype', 'wrt', 'habitat', 'oxygen'];General1;636
+637;BB-norm-F-20167385-001;MM;0.7948;Phenotype;catalase positive;OBT:000222 (catalase positive);OBT:000060 (catalase activity);OBT:000222;OBT:000060;['catalase', 'positive'];['catalase', 'activity'];General1;637
+638;BB-norm-F-20167385-000;MM;0.8065;Phenotype;Gram positive;OBT:000649 (gram-positive);OBT:000296 (gram stain phenotype);OBT:000649;OBT:000296;['gram-positive'];['gram', 'stain', 'phenotype'];General1;638
+639;BB-norm-F-20167385-001;MM;0.8065;Phenotype;Gram positive;OBT:000649 (gram-positive);OBT:000296 (gram stain phenotype);OBT:000649;OBT:000296;['gram-positive'];['gram', 'stain', 'phenotype'];General1;639
+640;BB-norm-F-20167385-001;MM;0.8065;Phenotype;cocci;OBT:000850 (round-shaped);OBT:000228 (cellular shape phenotype);OBT:000850;OBT:000228;['round-shaped'];['cellular', 'shape', 'phenotype'];General1;640
+641;BB-norm-F-20167385-011;MM;0.8065;Phenotype;Gram positive;OBT:000649 (gram-positive);OBT:000296 (gram stain phenotype);OBT:000649;OBT:000296;['gram-positive'];['gram', 'stain', 'phenotype'];General1;641
+642;BB-norm-F-20167385-010;MM;0.8134;Phenotype;yellow pigment;OBT:001386 (yellow pigmented);OBT:000809 (pigmented);OBT:001386;OBT:000809;['yellow', 'pigmented'];['pigmented'];General1;642
+643;BB-norm-16458564;MM;0.8647;Phenotype;resistance to ampicillin, chloramphenicol, and to trimethoprim/sulfamethoxazole;OBT:002844 (resistance to cotrimoxazole);OBT:002674 (antibiotic resistant);OBT:002844;OBT:002674;['resistance', 'to', 'cotrimoxazole'];['antibiotic', 'resistant'];General1;643
+644;BB-norm-16458564;MM;0.8647;Phenotype;resistance to ampicillin;OBT:002762 (ampicillin resistant);OBT:002674 (antibiotic resistant);OBT:002762;OBT:002674;['ampicillin', 'resistant'];['antibiotic', 'resistant'];General1;644
+645;BB-norm-16458564;MM;0.8647;Phenotype;resistance to ampicillin, chloramphenicol;OBT:002772 (chloramphenicol resistant);OBT:002674 (antibiotic resistant);OBT:002772;OBT:002674;['chloramphenicol', 'resistant'];['antibiotic', 'resistant'];General1;645
+646;BB-norm-25204345;MM;0.8647;Phenotype;quinolone resistance;OBT:002840 (quinolone resistant);OBT:002674 (antibiotic resistant);OBT:002840;OBT:002674;['quinolone', 'resistant'];['antibiotic', 'resistant'];General1;646
+647;BB-norm-25204345;MM;0.8647;Phenotype;quinolone resistance;OBT:002840 (quinolone resistant);OBT:002674 (antibiotic resistant);OBT:002840;OBT:002674;['quinolone', 'resistant'];['antibiotic', 'resistant'];General1;647
+648;BB-norm-25204345;MM;0.8647;Phenotype;quinolone resistance;OBT:002840 (quinolone resistant);OBT:002674 (antibiotic resistant);OBT:002840;OBT:002674;['quinolone', 'resistant'];['antibiotic', 'resistant'];General1;648
+649;BB-norm-25204345;MM;0.8647;Phenotype;resistance;OBT:002840 (quinolone resistant);OBT:002674 (antibiotic resistant);OBT:002840;OBT:002674;['quinolone', 'resistant'];['antibiotic', 'resistant'];General1;649
+650;BB-norm-25204345;MM;0.8647;Phenotype;quinolone resistance;OBT:002840 (quinolone resistant);OBT:002674 (antibiotic resistant);OBT:002840;OBT:002674;['quinolone', 'resistant'];['antibiotic', 'resistant'];General1;650
+651;BB-norm-25204345;MM;0.8647;Phenotype;resistance towards norfloxacin and ciprofloxacin;OBT:002773 (ciprofloxacin resistant);OBT:002674 (antibiotic resistant);OBT:002773;OBT:002674;['ciprofloxacin', 'resistant'];['antibiotic', 'resistant'];General1;651
+652;BB-norm-25204345;MM;0.8647;Phenotype;resistance towards norfloxacin;OBT:002824 (norfloxacin resistant);OBT:002674 (antibiotic resistant);OBT:002824;OBT:002674;['norfloxacin', 'resistant'];['antibiotic', 'resistant'];General1;652
+653;BB-norm-25204345;MM;0.8647;Phenotype;quinolone resistance;OBT:002840 (quinolone resistant);OBT:002674 (antibiotic resistant);OBT:002840;OBT:002674;['quinolone', 'resistant'];['antibiotic', 'resistant'];General1;653
+654;BB-norm-25204345;MM;0.8647;Phenotype;quinolone resistance;OBT:002840 (quinolone resistant);OBT:002674 (antibiotic resistant);OBT:002840;OBT:002674;['quinolone', 'resistant'];['antibiotic', 'resistant'];General1;654
+655;BB-norm-47483;MM;0.8647;Phenotype;Ampicillin-resistant;OBT:002762 (ampicillin resistant);OBT:002674 (antibiotic resistant);OBT:002762;OBT:002674;['ampicillin', 'resistant'];['antibiotic', 'resistant'];General1;655
+656;BB-norm-47483;MM;0.8647;Phenotype;Ampicillin-resistant;OBT:002762 (ampicillin resistant);OBT:002674 (antibiotic resistant);OBT:002762;OBT:002674;['ampicillin', 'resistant'];['antibiotic', 'resistant'];General1;656
+657;BB-norm-47483;MM;0.8647;Phenotype;resistance to penicillins;OBT:002829 (penicillin resistant);OBT:002674 (antibiotic resistant);OBT:002829;OBT:002674;['penicillin', 'resistant'];['antibiotic', 'resistant'];General1;657
+658;BB-norm-47483;MM;0.8647;Phenotype;resistant;OBT:002829 (penicillin resistant);OBT:002674 (antibiotic resistant);OBT:002829;OBT:002674;['penicillin', 'resistant'];['antibiotic', 'resistant'];General1;658
+659;BB-norm-47483;MM;0.8647;Phenotype;resistance;OBT:002829 (penicillin resistant);OBT:002674 (antibiotic resistant);OBT:002829;OBT:002674;['penicillin', 'resistant'];['antibiotic', 'resistant'];General1;659
+660;BB-norm-8559802;MM;0.8647;Phenotype;ampicillin-resistant;OBT:002762 (ampicillin resistant);OBT:002674 (antibiotic resistant);OBT:002762;OBT:002674;['ampicillin', 'resistant'];['antibiotic', 'resistant'];General1;660
+661;BB-norm-15293611;TP;1.0;Phenotype;multiresistance;OBT:002674 (antibiotic resistant);OBT:002674 (antibiotic resistant);OBT:002674;OBT:002674;['antibiotic', 'resistant'];['antibiotic', 'resistant'];Correct;661
+662;BB-norm-15293611;TP;1.0;Phenotype;multiresistance;OBT:002674 (antibiotic resistant);OBT:002674 (antibiotic resistant);OBT:002674;OBT:002674;['antibiotic', 'resistant'];['antibiotic', 'resistant'];Correct;662
+663;BB-norm-18789156;TP;1.0;Phenotype;adhesion;OBT:000029 (adherent);OBT:000029 (adherent);OBT:000029;OBT:000029;['adherent'];['adherent'];Correct;663
+664;BB-norm-19339076;TP;1.0;Phenotype;bile-sensitive;OBT:000153 (stress sensitive);OBT:000153 (stress sensitive);OBT:000153;OBT:000153;['stress', 'sensitive'];['stress', 'sensitive'];Correct;664
+665;BB-norm-19339076;TP;1.0;Phenotype;bile-sensitive;OBT:000153 (stress sensitive);OBT:000153 (stress sensitive);OBT:000153;OBT:000153;['stress', 'sensitive'];['stress', 'sensitive'];Correct;665
+666;BB-norm-19339076;TP;1.0;Phenotype;sensitive to bile;OBT:000153 (stress sensitive);OBT:000153 (stress sensitive);OBT:000153;OBT:000153;['stress', 'sensitive'];['stress', 'sensitive'];Correct;666
+667;BB-norm-19339076;TP;1.0;Phenotype;bile-sensitive;OBT:000153 (stress sensitive);OBT:000153 (stress sensitive);OBT:000153;OBT:000153;['stress', 'sensitive'];['stress', 'sensitive'];Correct;667
+668;BB-norm-20174624;TP;1.0;Phenotype;type III secretion;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;668
+669;BB-norm-20174624;TP;1.0;Phenotype;mutant;OBT:000118 (mutant);OBT:000118 (mutant);OBT:000118;OBT:000118;['mutant'];['mutant'];Correct;669
+670;BB-norm-21543877;TP;1.0;Phenotype;antibiotic resistance;OBT:002674 (antibiotic resistant);OBT:002674 (antibiotic resistant);OBT:002674;OBT:002674;['antibiotic', 'resistant'];['antibiotic', 'resistant'];Correct;670
+671;BB-norm-21695078;TP;1.0;Phenotype;virulence;OBT:000375 (pathogen);OBT:000375 (pathogen);OBT:000375;OBT:000375;['pathogen'];['pathogen'];Correct;671
+672;BB-norm-21894542;MM;1.0;Phenotype;halophilic;OBT:000656 (halophile);OBT:000656 (halophile);OBT:000656;OBT:000656;['halophile'];['halophile'];Correct;672
+673;BB-norm-21894542;TP;1.0;Phenotype;siderophore production;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;673
+674;BB-norm-21894542;TP;1.0;Phenotype;Siderophore production;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;674
+675;BB-norm-25114119;TP;1.0;Phenotype;pathogen;OBT:000375 (pathogen);OBT:000375 (pathogen);OBT:000375;OBT:000375;['pathogen'];['pathogen'];Correct;675
+676;BB-norm-25204345;TP;1.0;Phenotype;lactic acid bacteria;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;676
+677;BB-norm-25204345;TP;1.0;Phenotype;lactic acid bacterial;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;677
+678;BB-norm-25204345;TP;1.0;Phenotype;lactic acid bacteria;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;678
+679;BB-norm-47483;MM;1.0;Phenotype;gram-negative;OBT:000648 (gram-negative);OBT:000648 (gram-negative);OBT:000648;OBT:000648;['gram-negative'];['gram-negative'];Correct;679
+680;BB-norm-9521147;TP;1.0;Phenotype;virulent;OBT:000375 (pathogen);OBT:000375 (pathogen);OBT:000375;OBT:000375;['pathogen'];['pathogen'];Correct;680
+681;BB-norm-9521147;MM;1.0;Phenotype;gram-negative;OBT:000648 (gram-negative);OBT:000648 (gram-negative);OBT:000648;OBT:000648;['gram-negative'];['gram-negative'];Correct;681
+682;BB-norm-9521147;TP;1.0;Phenotype;virulence;OBT:000375 (pathogen);OBT:000375 (pathogen);OBT:000375;OBT:000375;['pathogen'];['pathogen'];Correct;682
+683;BB-norm-9521147;TP;1.0;Phenotype;pathogenicity;OBT:000375 (pathogen);OBT:000375 (pathogen);OBT:000375;OBT:000375;['pathogen'];['pathogen'];Correct;683
+684;BB-norm-9553794;TP;1.0;Phenotype;lactic acid bacteria;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;684
+685;BB-norm-9553794;TP;1.0;Phenotype;LAB;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;685
+686;BB-norm-9553794;MM;1.0;Phenotype;Gram-negative;OBT:000648 (gram-negative);OBT:000648 (gram-negative);OBT:000648;OBT:000648;['gram-negative'];['gram-negative'];Correct;686
+687;BB-norm-9553794;TP;1.0;Phenotype;LAB;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;687
+688;BB-norm-9553794;MM;1.0;Phenotype;Gram-negative;OBT:000648 (gram-negative);OBT:000648 (gram-negative);OBT:000648;OBT:000648;['gram-negative'];['gram-negative'];Correct;688
+689;BB-norm-9553794;TP;1.0;Phenotype;LAB;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;689
+690;BB-norm-9553794;MM;1.0;Phenotype;Gram-negative;OBT:000648 (gram-negative);OBT:000648 (gram-negative);OBT:000648;OBT:000648;['gram-negative'];['gram-negative'];Correct;690
+691;BB-norm-9553794;MM;1.0;Phenotype;Gram-negative;OBT:000648 (gram-negative);OBT:000648 (gram-negative);OBT:000648;OBT:000648;['gram-negative'];['gram-negative'];Correct;691
+692;BB-norm-9553794;TP;1.0;Phenotype;LAB;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;692
+693;BB-norm-9553794;TP;1.0;Phenotype;LAB;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;693
+694;BB-norm-9553794;TP;1.0;Phenotype;LAB;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;694
+695;BB-norm-9553794;MM;1.0;Phenotype;Gram-negative;OBT:000648 (gram-negative);OBT:000648 (gram-negative);OBT:000648;OBT:000648;['gram-negative'];['gram-negative'];Correct;695
+696;BB-norm-F-14624315-003;TP;1.0;Phenotype;transaminase activity;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;696
+697;BB-norm-F-14624315-003;TP;1.0;Phenotype;transaminase activity towards leucine;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;697
+698;BB-norm-F-14624315-004;TP;1.0;Phenotype;hydroxy acid dehydrogenase activity;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;698
+699;BB-norm-F-14624315-004;TP;1.0;Phenotype;transaminase activity;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;699
+700;BB-norm-F-14624315-005;TP;1.0;Phenotype;high hydroxy acid dehydrogenase activity;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;700
+701;BB-norm-F-14624315-005;TP;1.0;Phenotype;transaminase activity;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;701
+702;BB-norm-F-14624315-005;TP;1.0;Phenotype;transaminase and hydroxy acid dehydrogenase activities;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;702
+703;BB-norm-F-14624315-005;TP;1.0;Phenotype;hydroxy acid dehydrogenase activities;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;703
+704;BB-norm-F-20167385-011;TP;1.0;Phenotype;lactic acid bacterial;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;704
+705;BB-norm-F-20167385-011;TP;1.0;Phenotype;LAB;OBT:000019 (phenotype wrt metabolic activity);OBT:000019 (phenotype wrt metabolic activity);OBT:000019;OBT:000019;['phenotype', 'wrt', 'metabolic', 'activity'];['phenotype', 'wrt', 'metabolic', 'activity'];Correct;705
+706;BB-norm-F-20167385-012;MM;1.0;Phenotype;Gram negative;OBT:000648 (gram-negative);OBT:000648 (gram-negative);OBT:000648;OBT:000648;['gram-negative'];['gram-negative'];Correct;706
+707;BB-norm-F-20167385-013;MM;1.0;Phenotype;Gram-negative;OBT:000648 (gram-negative);OBT:000648 (gram-negative);OBT:000648;OBT:000648;['gram-negative'];['gram-negative'];Correct;707
